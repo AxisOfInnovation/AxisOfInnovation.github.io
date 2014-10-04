@@ -1,0 +1,154 @@
+* {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1#header, h2#header {
+    font-weight: bold;
+    background-color: black;
+    color: #BF0A30;
+    text-align: center;
+    
+    margin: 0px;
+}
+
+div#header {
+    width: 100%;
+    margin: 15px;
+}
+
+div#body {
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+    
+    /* Pad the top and bottom of the body div (expands the white)*/
+    padding-top: 15px;
+    padding-bottom: 30%;
+    
+    float: left;
+    
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+div#sidebar {
+    background-color: white;
+    float: left;
+    
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+ul.noPadding {
+    padding-left: 10px;
+}
+
+div#sidebar ul li {
+    list-style-type: none;
+    font-family: monospace;
+}
+
+/**********************/
+/* Article Formatting */
+/**********************/
+
+/* entire section for the article */
+div#article {
+    background-color: white;
+    padding-left: 15px;
+    
+    /* seperators between articles */
+    padding-bottom: 15px;
+    border-bottom: black solid 1px;
+    
+    margin: 30px;
+}
+
+/* article title */
+h2#article {
+    font-family: monospace;
+    font-size: 36px;
+    
+    margin-bottom: 0px;
+}
+
+h6#author {
+    margin-top: 0px;
+    text-indent: 25px;
+    color: grey;
+}
+
+/* article text */
+p#article {
+    font-size: 14px;
+    text-indent: 25px;
+}
+
+p#imgCaption {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+img#article {
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    
+    padding: 10px;
+    
+    border: grey solid 1px;
+}
+
+/*****************/
+/* Fade In Stuff */
+/*****************/
+
+.fadeInOnLoad {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
