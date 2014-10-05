@@ -26,37 +26,64 @@ div#body {
     margin-left: 25%;
     margin-right: auto;
     
-    /* Pad the top and bottom of the body div (expands the white)*/
-    padding-top: 15px;
-    padding-bottom: 30%;
-    
     float: left;
-    
-    border: 2px solid;
-    border-radius: 2px;
-}
-
-div#sidebar {
-    background-color: white;
-    float: left;
-    
-    padding-left: 5px;
-    padding-right: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    
-    margin: 0px;
-    margin-top: 30px;
-    margin-left: 15px;
 }
 
 ul.noPadding {
-    padding-left: 10px;
+    padding: 0px;
 }
 
-div#sidebar ul li {
+ul#navbar {
+    background-color: black;
+    margin-left: 30%;
+    width: 100%;
+}
+
+ul#navbar li {
     list-style-type: none;
+    display: inline;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+ul#navbar li a {
     font-family: monospace;
+    font-size: 14px;
+    background-color: black;
+    font-weight: bold;
+    color: #BF0A30;
+    text-decoration: none;
+    
+    transition: color 0.6s ease;
+}
+
+ul#navbar li a:hover {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+ul#navbar li ul {
+    max-height: 0px;
+    overflow: hidden;
+    display: block;
+    
+    transition: max-height 1s ease;
+}
+
+ul#navbar li:hover ul {
+    display: block;
+    max-height: 500px;
+    
+    transition: max-height 5s ease;
+}
+
+li#subnav {
+    padding: 0px;
+    margin: 0px;
 }
 
 /**********************/
