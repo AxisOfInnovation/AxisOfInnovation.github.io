@@ -1,181 +1,218 @@
-* {
-    font-family: verdana, arial, helvetica, sans-serif;
+/* default formatting for everything (everything matches this) */
+*
+{
+	font-family: Ubuntu, sans-serif;
+	color: #000; /* makes the text readable if it hasn't been properly formatted */
 }
 
-body {
-    background-color: black;
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* Content-grouping tags */
+
+/* formats the background */
+body
+{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #FFF;
 }
 
-h1#header, h2#header {
-    font-weight: bold;
-    background-color: black;
-    color: #BF0A30;
-    text-align: center;
-    
-    margin: 0px;
+/* formats the site header */
+header
+{
+	width 100vw;
+	padding: 15px;
+	padding-bottom: 2px;
+	border-bottom: solid 3px #000;
 }
 
-div#header {
-    width: 100%;
-    margin: 15px;
+/* formats the sidebar */
+sidebar
+{
+	float: left;
+	height: auto;
+	width: 175px;
+	margin-top: 15px;
 }
 
-div#body {
-    background-color: white;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: auto;
-    
-    float: left;
+/* formatting for each article */
+article
+{
+	border-bottom: solid 1px #000;
 }
 
-ul.noPadding {
-    padding: 0px;
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* h1s */
+
+/* The site header */
+h1#header
+{
+	margin-top: 0px;
+	font-size: 48px;
+	color: #BF0A30;
+	letter-spacing: 5px;
+
+	text-shadow: 1px 1px black;
 }
 
-ul#navbar {
-    background-color: black;
-    margin-left: 30%;
-    width: 100%;
+/* The content header */
+h1#content
+{
+	font-size: 33px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 2px solid #000;
 }
 
-ul#navbar li {
-    list-style-type: none;
-    display: inline;
-    
-    padding-left: 5%;
-    padding-right: 5%;
-    float: left;
-    border-bottom: none;
-    margin-bottom: 0px;
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* ps */
+
+/* The title of the article */
+p#articleTitle
+{
+	font-size: 22px;
+	font-weight: bold;
 }
 
-ul#navbar li a {
-    font-family: monospace;
-    font-size: 14px;
-    background-color: black;
-    font-weight: bold;
-    color: #BF0A30;
-    text-decoration: none;
-    
-    transition: color 0.6s ease;
+/* The body of the article */
+p#article
+{
+	text-indent: 45px;
+	font-size: 15px;
+	line-height: 30px;
 }
 
-ul#navbar li a:hover {
-    color: white;
-    transition: color 0.3s ease;
+p#imgCaption
+{
+	font-size: 12px;
+	color: grey;
+	text-align: center;
+	
+	/* center it */
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+
+	/* put it closer to the image */
+	margin-top: 2px;
 }
 
-ul#navbar li ul {
-    max-height: 0px;
-    overflow: hidden;
-    display: block;
-    
-    transition: max-height 1s ease;
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* divs */
+
+/* The division for the content */
+div#content
+{
+	margin-left: 185px;
+	margin-top: 5px;
+	padding: 15px;
+	backgr
 }
 
-ul#navbar li:hover ul {
-    display: block;
-    max-height: 500px;
-    
-    transition: max-height 5s ease;
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* uls */
+
+sidebar ul
+{
+	list-style-type: none;
+	padding: 5px;
+	padding-left: 20px;
 }
 
-li#subnav {
-    padding: 0px;
-    margin: 0px;
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* lis */
+
+sidebar ul li
+{
+	padding-bottom: 5px;
 }
 
-/**********************/
-/* Article Formatting */
-/**********************/
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* as */
 
-/* entire section for the article */
-div#article {
-    background-color: white;
-    padding-left: 15px;
-    
-    /* seperators between articles */
-    padding-bottom: 15px;
-    border-bottom: black solid 1px;
-    
-    margin: 30px;
+/* all links and the homepage link */
+a, /**/ sites a#home
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+
+	color: #BF0A30;
+		transition: color 0.5s ease;
 }
 
-/* article title */
-h2#article {
-    font-family: monospace;
-    font-size: 36px;
-    
-    margin-bottom: 0px;
+/* links when hovered */
+a:hover, /**/ sites a#home:hover
+{
+	color: #000;
+		transition: color 0.7s ease;
 }
 
-h6#author {
-    margin-top: 0px;
-    text-indent: 25px;
-    color: grey;
+sidebar ul li a#current
+{
+	color: #BF0A30;
+		transition: color 0.5s ease;
 }
 
-/* article text */
-p#article {
-    font-size: 14px;
-    text-indent: 25px;
+sidebar ul li a#current:hover
+{
+	color: #000;
+		transition: color 0.5s ease;
 }
 
-p#imgCaption {
-    color: grey;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 0px;
+/* the various linked sites to other locations */
+sites a
+{
+	padding-left: 33px;
+	
+	color: #000;
+		transition: color 0.5s ease;
 }
 
-img#article {
-    height: auto;
-    width: 50%;
-    margin-left: 25%;
-    
-    padding: 10px;
-    
-    border: grey solid 1px;
+/* the counterpart to the above element, but when hovered over */
+sites a:hover
+{
+	color: #BF0A30;
+	transition: color 0.7s ease;
 }
 
-/*****************/
-/* Fade In Stuff */
-/*****************/
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* hrs */
 
-.fadeInOnLoad {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+/* sidebar separators */
+sidebar ul li hr
+{
+	border: solid 1px #000;
+	margin-top: 0px;
+	maring-bottom: 4px;
+	display: block;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* imgs */
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+img#article
+{
+	width: 50%;
+	margin-left: 25%;
+	padding: 10px;
 }

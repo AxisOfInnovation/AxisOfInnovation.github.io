@@ -1,66 +1,101 @@
+
 <!DOCTYPE html>
-<html>
+<HTML>
 
-	<head>
+    <head>
+        <title>Axis Of Innovation</title>
 
-		<link rel="stylesheet" type="text/css" href="main.css"/>
+        <!-- Links our external style sheet -->
+        <link rel="stylesheet" type="text/css" href="main.css"/>
 
-	</head>
+        <!-- Safe use of Ubuntu font family <3 -->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    </head>
 
-	<body>
+    <body>
 
-		<div id="header">
-			<h1 id="header">Axis of Innovation</h1>
-			<h2 id="header">Programming Portal</h2>
-		</div>
+        <!-- Header grouping, everything releated to it goes here -->
+        <header>
+            <h1 id="header">The Axis of Innovation</h1>
 
-		<div>
-			<ul id="navbar" class="noPadding">
-				<li><a href="index.html">Blog</a></li>
-				<li>
-					<a href="repositories.html">Repositories</a>
-					<ul class="noPadding">
-						<li id="subnav"><a href="tilt.html">TILT</a></li>
-						<li id="subnav"><a href="auto1415.html">Auto</a></li>
-					</ul>
-				</li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</div>
+            <sites>
+                <a id="home" href="index.html">
+                    Home
+                </a>
+                <a href="https://github.com/AxisOfInnovation/">
+                    GitHub
+                </a>
+            </sites>
+        </header>
 
-		<div id="body" class="fadeInOnLoad">
+        <!-- The page beneath the header (sidebar and content) -->
+        <div>
 
-			<div id="article">
-				<h2 id="article">Site Up!</h2>
-				<h6 id="author">Austin Donovan</h6>
+            <!-- Sidebar grouping, everything releated goes here -->
+            <sidebar>
+                <ul>
+                    <li>
+                        About
+                        <hr>
+                        <ul>
+                            <li>
+                                <a href="team.html"> The Team </a>
+                            </li>
+                            <li>
+                                <a href="comp.html"> The Competition </a>
+                            </li>
+                        </ul>
+                    </li>
 
-				<p id="article">
-					The site is being created! This is a really long sentence that will need to be trimmed because I am testing how well it can
-					do this whole trimming thing, if it can even do it remotely well, that is without me having to teach it how to wrap the lines
-					and that would be a massive pain in the ass, now wouldn't it?
-				</p>
+                    <li>
+                        Resources
+                        <hr>
+                        <ul>
+                            <li>
+                                <a href="tilt.html"> tilt </a>
+                            </li>
+                        </ul>
+                    </li>
 
-				<img id="article" src="https://www.google.com/images/srpr/logo11w.png" alt="Testing Images"/>
-				<p id="imgCaption">Testing Images</p>
+                    <li>
+                        Programs
+                        <hr>
+                        <ul>
+                            <li>
+                                <a href="autonomous.html"> Autonomous </a>
+                            </li>
+                            <li>
+                                <a href="teleop.html"> Teleop </a>
+                            </li>
+                        </ul>
+                    </li>
 
-				<p id="article">
-					This is testing a second paragraph, one that follows an image!
-				</p>
+                </ul>
+            </sidebar>
 
-			</div>
+            <!-- div for content, must be a div for formatting -->
+            <div id="content">
+                <h1 id="content">Home</h1>
 
-			<div id="article">
+                <!-- Article grouping -->
+                <article>
+                    <p id="articleTitle">I dun made dis 2day</p>
+                    <p id="article">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
 
-				<h2 id="article">Testing Second Article</h2>
+                    <img id="article" src="https://www.google.com/images/srpr/logo11w.png" />
+                    <p id="imgCaption">That's testing images</p>
 
-				<p id="article">
-					Testing second article
-				</p>
+                    <img id="article" src="http://img1.wikia.nocookie.net/__cb20101019022831/logopedia/images/c/c6/Bing_logo.png" />
+                    <p id="imgCaption">Clearly superior</p>
 
-			</div>
+                </article>
 
-		</div>
+            </div id="news">
 
-	</body>
+        </div>
 
-</html>
+    </body>
+
+</HTML>
