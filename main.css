@@ -103,6 +103,14 @@ p#imgCaption
 	margin-top: 2px;
 }
 
+p#note
+{
+	font-size: 12px;
+	color: #555;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
 /********************************************************/
 /********************************************************/
 /********************************************************/
@@ -133,8 +141,25 @@ sidebar ul
 /********************************************************/
 /* lis */
 
+/* sidebar list item */
 sidebar ul li
 {
+	padding-bottom: 5px;
+}
+
+/* ordered list item in the article and their links */
+article ol li, /**/ article ol li a
+{
+	font-family: "Ubuntu Mono", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+/* only applies to "article ol li", not "article ol li a" */
+article ol li
+{
+	margin-left: 30px;
 	padding-bottom: 5px;
 }
 
@@ -163,13 +188,13 @@ a:hover, /**/ sites a#home:hover
 
 sidebar ul li a#current
 {
-	color: #BF0A30;
+	color: #000;
 		transition: color 0.5s ease;
 }
 
 sidebar ul li a#current:hover
 {
-	color: #000;
+	color: #BF0A30;
 		transition: color 0.5s ease;
 }
 
@@ -214,4 +239,27 @@ img#article
 	width: 50%;
 	margin-left: 25%;
 	padding: 10px;
+}
+
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* codes */
+
+code
+{
+	font-family: "Ubuntu Mono", sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+
+}
+
+code#preprocessor
+{
+	color: #730B0B;
+}
+
+code#string
+{
+	color: blue;
 }
