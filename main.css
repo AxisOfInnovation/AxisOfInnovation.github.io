@@ -51,7 +51,7 @@ article
 /* The site header */
 h1#header
 {
-	margin-top: 0px;
+	margin-top: 16px;
 	font-size: 48px;
 	color: #BF0A30;
 	letter-spacing: 5px;
