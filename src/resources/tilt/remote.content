@@ -42,7 +42,7 @@
     
     <table border="0">
         <col width="250">
-        
+
         <tr>
             <th>Declaration</th>
             <th>Description</th>
@@ -169,7 +169,7 @@
 
 <article>
 
-    <p id="articleTitle">Fields</p>
+    <p id="articleTitle">Field Overview</p>
 
     <table border="0">
         <col width="250">
@@ -216,7 +216,8 @@
 <article>
 
     <p id="articleTitle">Task Overview</p>
-    <p id="article">
+
+    <p id="methodDoc">
         <code>%task% getJoystickUpdates()</code><br/>
         Background task to get joystick information updates.<br/>
 
@@ -226,7 +227,9 @@
         s and joysticks to match the data the received packet contains.
     </p>
 
-    <p id="article">
+    <br/>
+
+    <p id="methodDoc">
         <code>%task% monitorPackets()</code><br/>
         Monitors the time between packets from the Field Control System.<br/>
         

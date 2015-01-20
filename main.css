@@ -90,11 +90,17 @@ p#articleInfo
 }
 
 /* The body of the article */
-p#article
+p#article, p#methodDoc
 {
 	text-indent: 45px;
 	font-size: 15px;
 	line-height: 30px;
+}
+
+p#methodDoc
+{
+	padding-left: 45px;
+	text-indent: -45px;
 }
 
 p#imgCaption
@@ -281,6 +287,11 @@ code#string, code#keyword
 table
 {
 	width: 100%;
+}
+
+table#parameters
+{
+	padding-left: 45px;
 }
 
 th
