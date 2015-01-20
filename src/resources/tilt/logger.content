@@ -1,10 +1,10 @@
 <meta>
-	<formatFile>../../default.format</formatFile>
-	<sidebarFile>tilt.sidebar</sidebarFile>
-	<sidebarItem>resources/tilt/logger.html</sidebarItem>
+    <formatFile>../../default.format</formatFile>
+    <sidebarFile>tilt.sidebar</sidebarFile>
+    <sidebarItem>resources/tilt/logger.html</sidebarItem>
 
-	<title>Logger.h</title>
-	<int><code id="keyword">int</code></int>
+    <title>Logger.h</title>
+    <int><code id="keyword">int</code></int>
     <const><code id="keyword">const</code></const>
     <bool><code id="keyword">bool</code></bool>
     <task><code id="keyword">task</code></task>
@@ -15,13 +15,13 @@
 <h1 id="content">Logger.h</h1>
 <article>
 
-	<p id="articleTitle">File Description</p>
-	<p id="article">
-		This header allows for easier access to the I/O systems in the NXT file system and can log 
-		various data types into a human readable text document.
-	</p>
+    <p id="articleTitle">File Description</p>
+    <p id="article">
+        This header allows for easier access to the I/O systems in the NXT file system and can log 
+        various data types into a human readable text document.
+    </p>
 
-	<p id="article">
+    <p id="article">
         Only members which are meant to be accessed, called, or started in the cases of fields, met
         hods, and tasks, respectively, are shown, some members may be excluded.
     </p>
@@ -30,76 +30,76 @@
 
 <article>
 
-	<p id="articleTitle">Field Overview</p>
-	<table>
-		<col width="295"/>
+    <p id="articleTitle">Field Overview</p>
+    <table>
+        <col width="295"/>
 
-		<tr>
-			<th>Declaration</th>
-			<th>Description</th>
-		</tr>
+        <tr>
+            <th>Declaration</th>
+            <th>Description</th>
+        </tr>
 
-		<tr>
-			<td>%bool% fileOpen</td>
-			<td>True if and only if there is a file currently opened for editing.</td>
-		</tr>
+        <tr>
+            <td>%bool% fileOpen</td>
+            <td>True if and only if there is a file currently opened for editing.</td>
+        </tr>
 
-	</table>
+    </table>
 
 </article>
 
 <article>
 
-	<p id="articleTitle">Method Overview</p>
+    <p id="articleTitle">Method Overview</p>
 
-	<p id="methodDoc">
-		<code>%void% closeLog()</code><br/>
-		Closes the currently opened log file.<br/>
+    <p id="methodDoc">
+        <code>%void% closeLog()</code><br/>
+        Closes the currently opened log file.<br/>
 
-		Checks to make sure that there is an opened log file (avoiding potential errors) and if the
-		re is one opened, closes it and sets <code>fileOpened</code> to false.
-	</p>
+        Checks to make sure that there is an opened log file (avoiding potential errors) and if the
+        re is one opened, closes it and sets <code>fileOpened</code> to false.
+    </p>
 
-	<br/>
+    <br/>
 
-	<p id="methodDoc">
-		<code>%void% openLog( %string% %const% fileName, %int% fileSize )</code><br/>
-		Opens a new log file for writing with a determined file size.<br/>
+    <p id="methodDoc">
+        <code>%void% openLog( %string% %const% fileName, %int% fileSize )</code><br/>
+        Opens a new log file for writing with a determined file size.<br/>
 
-		Checks for a previously opened file, and closes it if one is found. Then proceeds to delete 
-		the previous file by the same name (nothing will happen if said file does not exist) and th
-		en opens the newly created file for writing.<br/>
+        Checks for a previously opened file, and closes it if one is found. Then proceeds to delete 
+        the previous file by the same name (nothing will happen if said file does not exist) and th
+        en opens the newly created file for writing.<br/>
 
-		<table border="0" id="parameters">
-			<col width="250"/>
+        <table border="0" id="parameters">
+            <col width="250"/>
 
-			<tr>
-				<th>Parameter</th>
-				<th>Description</th>
-			</tr>
+            <tr>
+                <th>Parameter</th>
+                <th>Description</th>
+            </tr>
 
-			<tr>
-				<td>%string% %const% fileName</td>
-				<td>The name of the file to create.</td>
-			</tr>
+            <tr>
+                <td>%string% %const% fileName</td>
+                <td>The name of the file to create.</td>
+            </tr>
 
-			<tr>
-				<td>%int% fileSize</td>
-				<td>The size of the file to create (measured in bytes.)</td>
-			</tr>
+            <tr>
+                <td>%int% fileSize</td>
+                <td>The size of the file to create (measured in bytes.)</td>
+            </tr>
 
-		</table>
-	</p>
+        </table>
+    </p>
 
-	<br/>
+    <br/>
 
-	<p id="methodDoc">
+    <p id="methodDoc">
 
-		<code>%void% write( %string% %const% s )</code><br/>
-		Writes a string to the currently opened log file.<br/>
+        <code>%void% write( %string% %const% s )</code><br/>
+        Writes a string to the currently opened log file.<br/>
 
-		<table border="0" id="parameters">
-			<col width="250"/>
+        <table border="0" id="parameters">
+            <col width="250"/>
 
             <tr>
                 <th>Parameter</th>
@@ -111,9 +111,9 @@
                 <td>The string to write to the file</td>
             </tr>
 
-		</table>
+        </table>
 
-	</p>
+    </p>
 
     <br/>
 

@@ -1,24 +1,26 @@
 <meta>
-	<formatFile>../../../default.format</formatFile>
-	<sidebarFile>../tilt.sidebar</sidebarFile>
-	<sidebarItem>resources/tilt/sensors/infrared.html</sidebarItem>
+    <formatFile>../../../default.format</formatFile>
+    <sidebarFile>../tilt.sidebar</sidebarFile>
+    <sidebarItem>resources/tilt/sensors/infrared.html</sidebarItem>
 
-	<title>Infrared.h</title>
-	<int><code id="keyword">int</code></int>
+    <title>Infrared.h</title>
+    <int><code id="keyword">int</code></int>
     <const><code id="keyword">const</code></const>
     <bool><code id="keyword">bool</code></bool>
     <task><code id="keyword">task</code></task>
+    <void><code id="keyword">void</code></void>
+    <string><code id="keyword">string</code></string>
 </meta>
 
 <h1 id="content">Infrared.h</h1>
 
 <article>
 
-	<p id="articleTitle"></p>
-	<p id="article">
-	</p>
+    <p id="articleTitle"></p>
+    <p id="article">
+    </p>
 
-	<p id="article">
+    <p id="article">
         Only members which are meant to be accessed, called, or started in the cases of fields, met
         hods, and tasks, respectively, are shown, some members may be excluded.
     </p>
