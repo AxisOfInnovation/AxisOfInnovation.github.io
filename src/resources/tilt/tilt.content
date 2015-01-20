@@ -45,7 +45,7 @@
 
             <li>
                 When you need to use a file, put this statement at the top of your file<br/>
-                <code id="preprocessor">#include</code> <code id="string">"path/to/file.h"</code>
+                %include% <code id="string">"path/to/file.h"</code>
                 
                 <p id="note">
                     NOTE: The path is the path relative to the current file (the one
