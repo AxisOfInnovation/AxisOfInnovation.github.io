@@ -41,6 +41,7 @@
     <p id="articleTitle">Constant Overview</p>
     
     <table border="0">
+        <col width="250">
         
         <tr>
             <th>Declaration</th>
@@ -171,6 +172,7 @@
     <p id="articleTitle">Fields</p>
 
     <table border="0">
+        <col width="250">
 
         <tr>
             <th>Declaration</th>
