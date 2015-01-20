@@ -32,10 +32,50 @@
 	"buffers":
 	[
 		{
-			"file": "/media/Win7/Users/Austin/dev/rust/hello_world/src/main.rs",
+			"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/sonar.content",
 			"settings":
 			{
-				"buffer_size": 359,
+				"buffer_size": 2837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/main.css",
+			"settings":
+			{
+				"buffer_size": 5418,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/infrared.content",
+			"settings":
+			{
+				"buffer_size": 4772,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/logger.content",
+			"settings":
+			{
+				"buffer_size": 4710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/remote.content",
+			"settings":
+			{
+				"buffer_size": 7782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/tilt.content",
+			"settings":
+			{
+				"buffer_size": 3359,
 				"line_ending": "Unix"
 			}
 		}
@@ -76,6 +116,19 @@
 	},
 	"file_history":
 	[
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/logger.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/remote.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/tilt.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/syntaxHighlighting.externvars",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/infrared.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/programs/teleop.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/default.format",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/index.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/about/team.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/about/competition.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/programs/autonomous.content",
+		"/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/main.css",
+		"/media/Win7/Users/Austin/dev/rust/hello_world/src/main.rs",
 		"/media/Win7/Users/Austin/dev/rust/hello_world/main.rs",
 		"/media/Win7/Users/Austin/dev/rust/hello_world/Cargo.toml",
 		"/home/austin/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
@@ -183,9 +236,20 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"295",
+			"250",
+			"methoddoc",
+			"id=\"article\"",
+			"	\n",
+			"		\n",
+			"	",
+			" id=\"code\"",
+			"co",
+			"    \n",
+			"	",
 			"cmp",
 			"	",
 			"h",
@@ -219,10 +283,16 @@
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": true,
+		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"250",
+			"295",
+			"methodDoc",
+			"id=\"methodDoc\"",
+			"    ",
+			"",
 			"    ",
 			"competition.html",
 			"padding-top"
@@ -236,31 +306,172 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/media/Win7/Users/Austin/dev/rust/hello_world/src/main.rs",
+					"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/sonar.content",
 					"settings":
 					{
-						"buffer_size": 359,
+						"buffer_size": 2837,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								263,
+								263
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rust/Rust.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/main.css",
+					"settings":
+					{
+						"buffer_size": 5418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5109,
+								5109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3926.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/infrared.content",
+					"settings":
+					{
+						"buffer_size": 4772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/logger.content",
+					"settings":
+					{
+						"buffer_size": 4710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/remote.content",
+					"settings":
+					{
+						"buffer_size": 7782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7519,
+								7519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2970.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/media/Win7/Users/Austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/tilt.content",
+					"settings":
+					{
+						"buffer_size": 3359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1052,
+								1052
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -232,10 +232,10 @@
         
         Continuously runs in the background, checking to see if the last packet received was less t
         han one second ago. If a second passes before another packet is recieved, the <code>getJoys
-        tickUpdates</code> %task% will be stopped and all controller input values reset to <code>fa
-        lse</code>, <code>0</code>, or <code>DPAD_NONE</code>, respective the their data types. Whe
-        n the next packet is received, <code>getJoystickUpdates</code> is restarted and controller 
-        input begins again.
+        tickUpdates</code> %task% will be stopped and all controller input values reset to %false%, 
+        <code>0</code>, or <code>DPAD_NONE</code>, respective the their data types. When the next p
+        acket is received, <code>getJoystickUpdates</code> is restarted and controller input begins 
+        again.
 
         While this is listed here, it is not meant to be started directly, and is only listed so th
         at you may understand fully what the relation between this and <code>getJoystickUpdates</co
