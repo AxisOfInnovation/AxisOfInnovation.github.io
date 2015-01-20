@@ -1,0 +1,38 @@
+<ul>
+    <li>
+        About
+        <hr>
+        <ul>
+            <li>
+                <a href="about/team.html"> The Team </a>
+            </li>
+            <li>
+                <a href="about/competition.html"> The Competition </a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Resources
+        <hr>
+        <ul>
+            <li>
+                <a href="resources/tilt/tilt.html"> tilt </a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Programs
+        <hr>
+        <ul>
+            <li>
+                <a href="programs/autonomous.html"> Autonomous </a>
+            </li>
+            <li>
+                <a href="programs/teleop.html"> Teleop </a>
+            </li>
+        </ul>
+    </li>
+
+</ul>

@@ -1,9 +1,11 @@
-Logger.h
-<!-- SECTION -->
-format.html
-<!-- SECTION -->
-href="resources/tilt/logger.html"
-<!-- SECTION -->
+<meta>
+	<formatFile>../../default.format</formatFile>
+	<sidebarFile>tilt.sidebar</sidebarFile>
+	<sidebarItem>resources/tilt/logger.html</sidebarItem>
+
+	<title>Logger.h</title>
+</meta>
+
 <h1 id="content">Logger.h</h1>
 <article>
 

@@ -1,0 +1,17 @@
+<meta>
+	<formatFile>../../../default.format</formatFile>
+	<sidebarFile>../tilt.sidebar</sidebarFile>
+	<sidebarItem>resources/tilt/sensors/infrared.html</sidebarItem>
+
+	<title>Infrared.h</title>
+</meta>
+
+<h1 id="content">Infrared.h</h1>
+
+<article>
+
+	<p id="articleTitle"></p>
+	<p id="article">
+	</p>
+
+</article>

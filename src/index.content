@@ -1,22 +1,38 @@
-Home
-<!-- SECTION -->
-format.html
-<!-- SECTION -->
-href="index.html"
-<!-- SECTION -->
+<meta>
+    <formatFile>default.format</formatFile>
+    <sidebarFile>default.sidebar</sidebarFile>
+    <sidebarItem>index.html</sidebarItem>
+
+    <title>Home</title>
+    <littlebare><a href="about/team.html">little bare</a></littlebare>
+</meta>
+
 <h1 id="content">Home</h1>
 
-<!-- Article grouping -->
 <article>
-    <p id="articleTitle">I dun made dis 2day</p>
+
+    <p id="articleTitle">Information Added</p>
+    <p id="articleInfo">19 January, 2015 :: Austin Donovan</p>
     <p id="article">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Information regarding team members, previous competitions, accolades, current programs (bot
+        h teleop and autonomous), and TILT documentation was added. Additonal information regarding 
+        team members will be added shortly, as it's currently a %littlebare%. Check out the links i
+        n the sidebar to see all the newly-added information!
     </p>
 
-    <img id="article" src="https://www.google.com/images/srpr/logo11w.png" />
-    <p id="imgCaption">That's testing images</p>
+</article>
 
-    <img id="article" src="http://img1.wikia.nocookie.net/__cb20101019022831/logopedia/images/c/c6/Bing_logo.png" />
-    <p id="imgCaption">Clearly superior</p>
+<article>
+
+    <p id="articleTitle">Website Created</p>
+    <p id="articleInfo">19 January, 2015  :: Austin Donovan</p>
+    <p id="article">
+        After many hours fixing my HTML-exporting program, the website is now ready to be filled in 
+        with all the information we can possible fill it with while the stylings and formattings of 
+        the pages are still easily mutable and will affect every linked page upon the project being 
+        exported. While this isn't cogent to the team and its robotics mission, it is tangential to 
+        the team as it allows for the easy editing of the formatting of this site, without disturbi
+        ng any of its content, which may prove useful in future reformatting endeavors.
+    </p>
 
 </article>

@@ -1,0 +1,329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"fibonacci"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"tex",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/media/Win7/Users/Austin/dev/rust/hello_world/src/main.rs",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/Win7/Users/Austin/dev/rust/hello_world/main.rs",
+		"/media/Win7/Users/Austin/dev/rust/hello_world/Cargo.toml",
+		"/home/austin/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/index.content",
+		"/home/austin/.mozilla/firefox/ygnvwzkf.default/chrome/userChrome.css",
+		"/home/austin/Downloads/Kinetics.8xp",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/tilt.sidebar",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/tilt.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/about/team.sidebar",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/default.sidebar",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/remote.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/logger.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/infrared.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/sonar.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/default.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/format.html",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/programs/teleop.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/programs/autonomous.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/about/competition.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/index.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/about/team.content",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/index.sidebar",
+		"//opt/microchip/mplabx/Uninstall_MPLAB_X_IDE_v2.26.desktop",
+		"/opt/microchip/mplabx/Uninstall_MPLAB_X_IDE_v2.26",
+		"/usr/share/applications/mplab.desktop",
+		"/home/austin/dev/python/project euler/P4.py",
+		"/home/austin/dev/python/project euler/P5.py",
+		"/home/austin/dev/python/project euler/P3.py",
+		"/home/austin/dev/python/project euler/P2.py",
+		"/home/austin/dev/python/project euler/P1.py",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/index.sidebar",
+		"/home/austin/dev/web/aoi/src/index.content",
+		"/home/austin/Windows User Folder/AppData/Local/my games/tmp.txt",
+		"/home/austin/Windows User Folder/AppData/Local/my games/taglist.txt",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/format.html",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/main.css",
+		"/home/austin/.bash_aliases",
+		"/home/austin/dev/web/format.sh",
+		"/home/austin/.cache/.fr-cerW9m/truecrypt-7.2-setup-x64",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/index.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/main.css",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/programs/autonomous.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/programs/teleop.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/about/team.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/about/competition.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/index.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/infrared.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/sensors/sonar.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/remote.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/logger.format",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/index.html",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/format.sh",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/remote.html",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/logger.html",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/resources/tilt/index.format.html",
+		"/home/austin/dev/web/AxisOfInnovation.github.io/src/index.format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/src/about/team.format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/src/about/competition.format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/src/index.format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/index.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/index.format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/resources/tilt/index.format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/resources/tilt/format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/resources/tilt/index.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/format.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/programs/autonomous.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/about/team.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/about/competition.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/programs/teleop.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/teleop.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/tilt.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/autonomous.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/main.css",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/comp.html",
+		"/media/Win7/Users/Austin/Dev/Web/AxisOfInnovation.github.io/team.html",
+		"/media/Win7/Users/Austin/Dev/RobotC/FTC/TILT/src/Logger.h",
+		"/media/Win7/Users/Austin/Dev/RobotC/FTC/TILT/src/Testing.c",
+		"/media/Win7/Users/Austin/Dev/RobotC/FTC/TILT/src/Remote.h",
+		"/home/austin/dev/games/LibGDX/tetris/core/src/com/github/obsidianarch/TetrisGame.java",
+		"/home/austin/Documents/intellij/bin/idea64.vmoptions",
+		"/home/austin/Documents/intellij/bin/idea.vmoptions",
+		"/home/austin/.local/share/applications/alacarte-made.desktop",
+		"/home/austin/.local/share/applications/chrome-knipolnnllmklapflnccelgolnpehhpl-Default.desktop",
+		"//usr/share/applications/scratch-text-editor.desktop",
+		"/.bash_aliases.rc",
+		"//usr/share/applications/midori.desktop",
+		"/home/austin/dev/web/obsidianarch.github.io/main.css",
+		"/home/austin/dev/web/obsidianarch.github.io/index.html",
+		"/home/austin/dev/web/obsidianarch.github.io/pong/index.html",
+		"//usr/share/applications/geary.desktop",
+		"/home/austin/dev/web/obsidianarch.github.io/pong.html",
+		"/media/Win7/Users/Austin/Dev/Java/DailyProgrammer/src/austin/dailyprogrammer/Challenge_07_14_2014.java",
+		"/home/austin/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cmp",
+			"	",
+			"h",
+			" \n",
+			"\n",
+			"\n                ",
+			"                \n",
+			"\n                    ",
+			"                    \n",
+			"                        \n",
+			"/>\n",
+			"\n	",
+			"	\n",
+			"comp.html",
+			"        \n",
+			"\n<!--",
+			"padding-bottom",
+			">\n",
+			"\n            ",
+			"            \n",
+			"\n            ",
+			"            \n",
+			"        \n",
+			"    \n",
+			"article",
+			"tag",
+			"tag_",
+			"tag_close_tag",
+			"></",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"    ",
+			"competition.html",
+			"padding-top"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/media/Win7/Users/Austin/dev/rust/hello_world/src/main.rs",
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust/Rust.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true
+}

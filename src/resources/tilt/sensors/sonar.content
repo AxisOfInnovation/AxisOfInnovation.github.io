@@ -1,9 +1,11 @@
-Sonar.h
-<!-- SECTION -->
-../format.html
-<!-- SECTION -->
-href="resources/tilt/sensors/sonar.html"
-<!-- SECTION -->
+<meta>
+	<formatFile>../../../default.format</formatFile>
+	<sidebarFile>../tilt.sidebar</sidebarFile>
+	<sidebarItem>resources/tilt/sensors/sonar.html</sidebarItem>
+
+	<title>Sonar.h</title>
+</meta>
+
 <h1 id="content">Sonar.h</h1>
 <article>
 	<p id="articleTitle">Overview</p>
