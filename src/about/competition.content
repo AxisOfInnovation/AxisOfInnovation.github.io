@@ -1,7 +1,7 @@
 <meta>
 	<formatFile>../default.format</formatFile>
 	<sidebarFile>../default.sidebar</sidebarFile>
-	<sidebarItem>about/comptetition.html</sidebarItem>
+	<sidebarItem>about/competition.html</sidebarItem>
 
 	<title>The Competition</title>
 </meta>
