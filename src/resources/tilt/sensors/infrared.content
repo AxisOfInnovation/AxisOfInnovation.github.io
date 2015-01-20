@@ -10,6 +10,9 @@
     <task><code id="keyword">task</code></task>
     <void><code id="keyword">void</code></void>
     <string><code id="keyword">string</code></string>
+    <tsensors><code id="object">tSensors</code></tsensors>
+    <true><code id="keyword">true</code></true>
+    <false><code id="keyword">false</code></false>
 </meta>
 
 <h1 id="content">Infrared.h</h1>
@@ -18,11 +21,153 @@
 
     <p id="articleTitle"></p>
     <p id="article">
+        This header file handles all infrared sensor data.
+    </p>
+
+    <p id="article">
+        The infrared sensor has two methods of reading input. The first one is using the direct mod
+        e; however, the more usefule one is the zone method. there are five zones, for the directio
+        n in which each reads in, please consult the paper shipped with your IRv2 sensor unit. This 
+        file offers many ways to reduce annoyances in reading infrared values via rounding or ignor
+        ing values below a certain threshold. Both of these functions are useful in filtering out a
+        ny possible noise the sensor may pick up on; however, it should be noted that these alone w
+        ill not filter out all noise.
     </p>
 
     <p id="article">
         Only members which are meant to be accessed, called, or started in the cases of fields, met
         hods, and tasks, respectively, are shown, some members may be excluded.
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Field Overview</p>
+
+    <table>
+        <col width="285"/>
+
+        <tr>
+            <th>Declaration</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>%int% irDirect</td>
+            <td>A direct reading from the IR sensor</td>
+        </tr>
+
+        <tr>
+            <td>%int% irZone1</td>
+            <td>The reading from zone one</td>
+        </tr>
+
+        <tr>
+            <td>%int% irZone2</td>
+            <td>The reading from zone two</td>
+        </tr>
+
+        <tr>
+            <td>%int% irZone3</td>
+            <td>The reading from zone three</td>
+        </tr>
+
+        <tr>
+            <td>%int% irZone4</td>
+            <td>The reading from zone four</td>
+        </tr>
+
+        <tr>
+            <td>%int% irZone5</td>
+            <td>The reading from zone five</td>
+        </tr>
+
+        <tr>
+            <td>%int% irThreshold</td>
+            <td>
+                The threshold for the IR readings, if a reading is below this value, it is replaced
+                by zero
+            </td>
+        </tr>
+
+        <tr>
+            <td>%int% irRounding</td>
+            <td>
+                All IR readings will be rounded to the nearest multiple of this number. If the valu
+                e of this is lesss than or equal to one will be ignored and the values not rounded.
+            </td>
+        </tr>
+
+    </table>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Method Overview</p>
+
+    <p id="methodDoc">
+        <code>%bool% initInfrared( %tsensors% infrared )</code><br/>
+        Initializes the passed infrared sensor to read for an F.T.C. competition.<br/>
+
+        This will attempt to initialize the IR sensor to read a 1200 Hertz infrared signal ten time
+        s. Each attempt will be followed by 100 milliseconds of waiting time before the next attemp
+        t. Upon a tenth failure, the NXT will play the exception sound.<br/>
+
+        <table border="0" id="parameters">
+            <col width="250"/>
+
+            <tr>
+                <th>Parameter</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>%tsensors% infrared</td>
+                <td>The ifnrared sensor to initialize.</td>
+            </tr>
+
+        </table>
+
+        <table border="0" id="parameters">
+            <col width="250">
+
+            <tr>
+                <th>Returns</th>
+            </tr>
+
+            <tr>
+                <td>%true% if the initialization of the sensor succeeded, %false% if it did not.</td>
+            </tr>
+
+        </table>
+
+    </p>
+
+    <p id="methodDoc">
+        <code>%void% updateInfrared( %tsensors% infrared )</code><br/>
+        Reads and updates zone readings from the given infrared sensor.<br/>
+
+        Reads the direct and zone values fromt he ifnrared seeker. Then if a zone reading is less t
+        han the threshold sets the zone reading to zero. After checking to ensure that the rounding 
+        number is greater than one, each zone is rounded to the enartest multiple of <code>irRoundi
+        ng</code>
+
+        <table border="0" id="parameters">
+            <col width="250"/>
+
+            <tr>
+                <th>Parameter</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>%tsensors% infrared</td>
+                <td>The ifnrared sensor to read from</td>
+            </tr>
+
+        </table>
     </p>
 
 </article>
