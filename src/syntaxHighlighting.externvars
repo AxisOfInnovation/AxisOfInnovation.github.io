@@ -1,0 +1,11 @@
+<meta>
+    <int><code id="keyword">int</code></int>
+    <const><code id="keyword">const</code></const>
+    <bool><code id="keyword">bool</code></bool>
+    <task><code id="keyword">task</code></task>
+    <void><code id="keyword">void</code></void>
+    <string><code id="keyword">string</code></string>
+    <tsensors><code id="object">tSensors</code></tsensors>
+    <true><code id="keyword">true</code></true>
+    <false><code id="keyword">false</code></false>
+</meta>

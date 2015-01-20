@@ -4,6 +4,7 @@
     <sidebarItem>resources/tilt/tilt.html</sidebarItem>
 
     <title>TILT</title>
+    <externvars file="../../syntaxHighlighting.externvars"/>
     <download><a href="https://github.com/AxisOfInnovation/TILT/archive/master.zip">Download</a></download>
     <projectpage><a href="https://github.com/AxisOfInnovation/tilt">project</a></projectpage>
 </meta>
