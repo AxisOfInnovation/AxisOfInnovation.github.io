@@ -10,6 +10,9 @@
     <task><code id="keyword">task</code></task>
     <void><code id="keyword">void</code></void>
     <string><code id="keyword">string</code></string>
+    <tsensors><code id="object">tSensors</code></tsensors>
+    <true><code id="keyword">true</code></true>
+    <false><code id="keyword">false</code></false>
 </meta>
 
 <h1 id="content">Logger.h</h1>

@@ -1,15 +1,113 @@
 <meta>
-	<formatFile>../../../default.format</formatFile>
-	<sidebarFile>../tilt.sidebar</sidebarFile>
-	<sidebarItem>resources/tilt/sensors/sonar.html</sidebarItem>
+    <formatFile>../../../default.format</formatFile>
+    <sidebarFile>../tilt.sidebar</sidebarFile>
+    <sidebarItem>resources/tilt/sensors/sonar.html</sidebarItem>
 
-	<title>Sonar.h</title>
+    <title>Sonar.h</title>
+    <int><code id="keyword">int</code></int>
+    <const><code id="keyword">const</code></const>
+    <bool><code id="keyword">bool</code></bool>
+    <task><code id="keyword">task</code></task>
+    <void><code id="keyword">void</code></void>
+    <string><code id="keyword">string</code></string>
+    <tsensors><code id="object">tSensors</code></tsensors>
+    <true><code id="keyword">true</code></true>
+    <false><code id="keyword">false</code></false>
 </meta>
 
 <h1 id="content">Sonar.h</h1>
+
 <article>
-	<p id="articleTitle">Overview</p>
-	<p id="article">
-		TILT IS 4 COOL KIDS
-	</p>
+    
+    <p id="articleTitle">File Description</p>
+    
+    <p id="article">
+        This header file handles all sonar data.
+    </p>
+
+    <p id="article">
+        By using the <code>sonarMinimum</code> and <code>sonarMaximum</code> variables, the minmum 
+        and maximum values for sonar readings can be changed. When the number violates these bounda
+        ries, the closest boundary will be assigned to <code>sonarValue</code>.
+    </p>
+
+    <p id="article">
+        Only members which are meant to be accessed, called, or started in the cases of fields, met
+        hods, and tasks, respectively, are shown, some members may be excluded.
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Field Overview</p>
+    <table border="0">
+        <col width="285"/>
+
+        <tr>
+            <th>Declaration</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <td>%int% sonarValue</td>
+            <td>The last updated value of the sonar sensor</td>
+        </tr>
+
+        <tr>
+            <td>%int% sonarMinimum</td>
+            <td>The minimum value the sonar will read, if a number is below this the sonar will read this instead</td>
+        </tr>
+
+        <tr>
+            <td>%int% sonarMaximum</td>
+            <td>The maximum value the sonar will read, if a number is over this the sonar will read this instaed</td>
+        </tr>
+
+    </table>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Method Overview</p>
+    
+    <p id="article">
+        <code>%int% updateSonar( %tsensors% sensor )</code><br/>
+        Updates and returns the distance the sonar sensor is reading.<br/>
+
+        Updates the value of the <code>sonarValue</code> global variable and then returns the value of 
+        said variable. If the sonar value is out of the [<code>sonarMinimum</code>, <code>sonarMaximum
+        </code>] range, then it will set the value to the closest boundary.
+
+        <table border="0" id="parameters">
+            <col width="250"/>
+
+            <tr>
+                <th>Parameter</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>%tsensors% sensor</td>
+                <td>The sonar sensor's port or name</td>
+            </tr>
+
+        </table>
+
+        <table border="0" id="parameters">
+            <col width="250">
+
+            <tr>
+                <th>Returns</th>
+            </tr>
+
+            <tr>
+                <td>The updated value of the sonar sensor</td>
+            </tr>
+
+        </table>
+
+    </p>
+
 </article>
