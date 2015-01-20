@@ -32,7 +32,7 @@
 
 	<p id="articleTitle">Field Overview</p>
 	<table>
-		<col width="250"/>
+		<col width="295"/>
 
 		<tr>
 			<th>Declaration</th>
