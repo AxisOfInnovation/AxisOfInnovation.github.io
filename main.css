@@ -126,6 +126,20 @@ p#note
 	margin-bottom: 2px;
 }
 
+p.splitLeft
+{
+	float: left;
+	width: 50%;
+}
+
+p.splitRight
+{
+	float: right;
+	width: 50%;
+	text-align: right;
+	color: #BF0A30;
+}
+
 /********************************************************/
 /********************************************************/
 /********************************************************/
@@ -261,12 +275,11 @@ img#article
 /********************************************************/
 /* codes */
 
-code, td
+code, td, acronym
 {
 	font-family: "Ubuntu Mono", sans-serif;
 	font-size: 15px;
 	font-weight: normal;
-
 }
 
 code#preprocessor
