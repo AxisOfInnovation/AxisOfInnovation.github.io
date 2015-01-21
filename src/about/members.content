@@ -1,0 +1,99 @@
+<meta>
+	<formatFile>../default.format</formatFile>
+	<sidebarFile>../default.sidebar</sidebarFile>
+	<sidebarItem>about/members.html</sidebarItem>
+
+	<title>Team Members</title>
+</meta>
+
+<h1 id="content">The Team</h1>
+
+<article>
+    
+    <p id="articleTitle">Austin Donovan</p>
+    <p id="article">
+        Male.
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Ben Hickey</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Chris Kennedy</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Colby Kennedy</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Garrett Wezniak</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Ilyas Sadreyev</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Jacob Hethcock</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Michelle Reitz</p>
+    <p id="article">
+        <strike>Male</strike>Female.
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Nick Chiapputo</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">T.J. Durkin</p>
+    <p id="article">
+        Male
+    </p>
+
+</article>

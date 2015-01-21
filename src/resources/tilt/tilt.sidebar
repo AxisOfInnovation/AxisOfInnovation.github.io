@@ -4,7 +4,10 @@
         <hr>
         <ul>
             <li>
-                <a href="about/team.html"> The Team </a>
+                <a href="about/members.html"> The Team </a>
+            </li>
+            <li>
+                <a href="about/accolades.html"> Accolades </a>
             </li>
             <li>
                 <a href="about/competition.html"> The Competition </a>
