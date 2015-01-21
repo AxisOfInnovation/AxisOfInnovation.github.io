@@ -129,13 +129,13 @@ p#note
 p.splitLeft
 {
 	float: left;
-	width: 50%;
+	width: 75%;
 }
 
 p.splitRight
 {
 	float: right;
-	width: 50%;
+	width: 25%;
 	text-align: right;
 	color: #BF0A30;
 }
