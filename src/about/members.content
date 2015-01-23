@@ -3,7 +3,7 @@
 	<sidebarFile>../default.sidebar</sidebarFile>
 	<sidebarItem>about/members.html</sidebarItem>
 
-	<title>Team Members</title>
+	<title>The Team</title>
 </meta>
 
 <h1 id="content">The Team</h1>
@@ -16,7 +16,7 @@
         FTC team and my second year on the Axis of Innovation, I also compete in Science Olypmiad a
         nd will compete in UIL Computer Science this year. My job on the team is to be the lead pro
         grammer and coordinate my subordinates while also maintaining our team's central programmin
-        g library, TILT.
+        g library, tilt.
     </p>
 
 </article>

@@ -4,20 +4,39 @@
     <sidebarItem>index.html</sidebarItem>
 
     <title>Home</title>
-    <littlebare><a href="about/team.html">little bare</a></littlebare>
 </meta>
 
 <h1 id="content">Home</h1>
 
 <article>
 
-    <p id="articleTitle">Information Added</p>
-    <p id="articleInfo">19 January, 2015 :: Austin Donovan</p>
+    <p id="articleTitle">Documentation Updated!</p>
+    <p id="articleInfo">19 January, 2015</p>
     <p id="article">
-        Information regarding team members, previous competitions, accolades, current programs (bot
-        h teleop and autonomous), and TILT documentation was added. Additonal information regarding 
-        team members will be added shortly, as it's currently a %littlebare%. Check out the links i
-        n the sidebar to see all the newly-added information!
+        tilt documenation has finally been updated to mirror what the is written in the library its
+        elf. Sorry for the wait, but hopefully the <i>lovely</i> formatting will make up for this! 
+        At least, I think it will.
+    </p>
+    
+
+</article>
+
+<article>
+    <p id="articleTitle">Information Being Added</p>
+    <p id="articleInfo">27 November, 2014</p>
+    <p id="article">
+        Information regarding team members, previous competitions, accolades, and current programs 
+        both teleop and autonomous) is being added to the site. Additonal information regarding tea
+        m members will be added shortly, as it's currently a little bare. Check out the links in th
+        e sidebar to see all the newly-added information!
+    </p>
+    <p id="article">
+        While the pages for tilt's documentation have been created, they most likely will not be up
+        dated for a little while longer as the documentation formatting takes a little while to do 
+        by hand, and writing a program to parse and automatically format it (like the javadoc tool) 
+        would be really neat; however, it would be more difficult than simply writing it by hand.    <br/>
+        Unfortunately, this means tilt documentation will not be available for a little while longe
+        r.
     </p>
 
 </article>
@@ -25,7 +44,7 @@
 <article>
 
     <p id="articleTitle">Website Created</p>
-    <p id="articleInfo">19 January, 2015  :: Austin Donovan</p>
+    <p id="articleInfo">4 October, 2014 </p>
     <p id="article">
         After many hours fixing my HTML-exporting program, the website is now ready to be filled in 
         with all the information we can possible fill it with while the stylings and formattings of 

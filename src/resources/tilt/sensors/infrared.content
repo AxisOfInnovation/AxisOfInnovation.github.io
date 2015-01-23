@@ -13,8 +13,22 @@
 
     <p id="articleTitle"></p>
     <p id="article">
-        This header file handles all infrared sensor data.
+        This header file handles all infrared sensor data. This requires the file "hitechnic-irseek
+        er-v2.h" to be placed in the folder named "drivers" in the same directory as Infrared.h is. 
+        You may have to create the drivers folder. The file is from the 3<sup>rd</sup> Party Driver
+        s which you can find by opening a sample file (under the File menu) and locating the 3rd Pa
+        rty drivers directory. Your file system should reflect this to get this file to work proper
+        ly: <br/>
+
     </p>
+
+    <code style="line-height: -1px;">
+        sensors                                     <br/>
+        &boxvr; Infrared.h                          <br/>
+        &boxur; drivers                             <br/>
+        &nbsp;&nbsp;&boxur; hitechnic-irseeker-v2.h <br/>
+    </code>
+    
 
     <p id="article">
         The infrared sensor has two methods of reading input. The first one is using the direct mod

@@ -36,7 +36,7 @@
 
         <tr>
             <td>%bool% fileOpen</td>
-            <td>True if and only if there is a file currently opened for editing.</td>
+            <td>%true% if and only if there is a file currently opened for editing.</td>
         </tr>
 
     </table>
