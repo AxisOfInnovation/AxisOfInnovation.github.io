@@ -275,7 +275,7 @@ img#article
 /********************************************************/
 /* codes */
 
-code, td, acronym
+code, td, acronym, pre
 {
 	font-family: "Ubuntu Mono", sans-serif;
 	font-size: 15px;
@@ -289,7 +289,8 @@ code#preprocessor
 
 code#string, code#keyword
 {
-	color: blue;
+	color: #BF0A30;
+	font-weight: bold;
 }
 
 code#object
