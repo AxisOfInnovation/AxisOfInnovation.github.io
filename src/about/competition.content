@@ -10,7 +10,8 @@
 
 <article>
 
-    <p id="articleTitle">FIRST Tech Challenge :: Cascade Effect</p>
+    <p id="articleTitle" class="splitLeft">Cascade Effect</p>
+    <p id="articleTitle" class="splitRight">FIRST Tech Challenge</p>
     <p id="articleInfo">2014-2015 FTC Season</p>
     <p id="article">
         <center>
@@ -27,7 +28,8 @@
 
 <article>
 
-    <p id="articleTitle">FIRST Tech Challenge :: Block Party</p>
+    <p id="articleTitle" class="splitLeft">Block Party</p>
+    <p id="articleTitle" class="splitRight">FIRST Tech Challenge</p>
     <p id="articleInfo">2013-2014 FTC Season</p>
     <p id="article">
         <center>
