@@ -23,15 +23,6 @@
 
 <article>
 
-    <p id="articleTitle">Ben Hickey</p>
-    <p id="article">
-        Male
-    </p>
-
-</article>
-
-<article>
-
     <p id="articleTitle">Chris Kennedy</p>
     <p id="article">
         I am a 15-year-old freshman at Colleyville Heritage High School. I have been in FTC for 2 y
@@ -49,6 +40,19 @@
         I am a 17-year-old junior at Colleyville Heritage High School. This is my third year of FTC 
         and my fourth year of FIRST programs. I also play piano, participate in Science Olympiad, a
         nd play in a ajazz band. My role on the team is a lead designer.
+    </p>
+
+</article>
+
+<article>
+
+    <p id="articleTitle">Drew DeHaven</p>
+    <p id="article">
+        I am a 15-year-old freshman at Grapevine High School. This is my first year in FTC or any F
+        IRST program. I am in the top level Advanced Placement classes, with very high A's and am a 
+        member of the football, basketball, and track teams. I have started my own business through 
+        the Youth Entrepreneurial Academy National Competition. I have many connections with the bu
+        siness world and will procure sponsorships for our team.
     </p>
 
 </article>
@@ -81,19 +85,6 @@
         math to system designs via physics in order to find parameters of what we can and cannot do 
         with said system, in addition to finding the optimal, most efficient design of the system. 
         I look forward to an exciting season, and thank you for reading.
-    </p>
-
-</article>
-
-<article>
-
-    <p id="articleTitle">Drew DeHaven</p>
-    <p id="article">
-        I am a 15-year-old freshman at Grapevine High School. This is my first year in FTC or any F
-        IRST program. I am in the top level Advanced Placement classes, with very high A's and am a 
-        member of the football, basketball, and track teams. I have started my own business through 
-        the Youth Entrepreneurial Academy National Competition. I have many connections with the bu
-        siness world and will procure sponsorships for our team.
     </p>
 
 </article>
