@@ -131,7 +131,7 @@
 
             <tr>
                 <td>%tsensors% infrared</td>
-                <td>The ifnrared sensor to initialize.</td>
+                <td>The infrared sensor to initialize.</td>
             </tr>
 
         </table>
