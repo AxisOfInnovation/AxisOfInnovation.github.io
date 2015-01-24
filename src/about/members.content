@@ -91,6 +91,17 @@
 
 <article>
 
+    <p id="articleTitle">Jacob Hethcock</p>
+    <p id="article">
+        I am a 17-year-old Junior attending Colleyville Heritage High School. This is my third year 
+        in FTC and my fifth year participating on a FIRST team. I run cross country, participate in 
+        Science Olympiad, and play soccer.
+    </p>
+
+</article>
+
+<article>
+
     <p id="articleTitle">Michelle Reitz</p>
     <p id="article">
         I'm an tenth grader at Colleyville Heritage High School, and love science and mathematics a
