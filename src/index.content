@@ -10,6 +10,17 @@
 
 <article>
 
+    <p id="articleTitle">Preparing for the Qualifer!</p>
+    <p id="articleInfo">23 January, 2015</p>
+    <p id="article">
+        We are doing last-minute preparations for the Ben Barber Tech Qualifier. The team is very e
+        xcited and psyched for a decisive victory!
+    </p>
+
+</article>
+
+<article>
+
     <p id="articleTitle">Documentation Updated!</p>
     <p id="articleInfo">19 January, 2015</p>
     <p id="article">

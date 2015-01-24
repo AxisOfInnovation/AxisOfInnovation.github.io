@@ -12,7 +12,35 @@
 
     <p id="articleTitle">Capabilities</p>
     <p id="article">
-        Hasn't been written
+        <ul>
+            <li>
+                Omnidirectional movement
+                <ul>
+                    <li>Uses mecanum wheels</li>
+                    <li>Standard wheel base</li>
+                    <li>Can turn on a dime</li>
+                </ul>
+            </li>
+            <li>
+                Double motored lift
+                <ul>
+                    <li>Powered by NeveRest motors</li>
+                </ul>
+            </li>
+            <li>
+                Ball grabber
+                <ul>
+                    <li>Utilizes Flippity Floos (zip ties)</li>
+                    <li>Sweeps balls into the ball bay</li>
+                    <li>
+                        Ball bay can sift out small balls
+                        <ul>
+                            <li>Allows us to only pick up higher-scoring game elements</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </p>
 
 </article>
@@ -21,7 +49,8 @@
 
     <p id="articleTitle">Possible Strategies</p>
     <p id="article">
-        Hope y'all don't count on us.
+        Because of our omni-directional movement and ability to turn on a dime and the general spee
+        d and manueverability of the robot, we can play either defensively or offensively.
     </p>
 
 </article>

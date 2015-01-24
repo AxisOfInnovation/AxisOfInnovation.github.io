@@ -26,7 +26,7 @@
         sensors                                     <br/>
         &boxvr; Infrared.h                          <br/>
         &boxur; drivers                             <br/>
-        &nbsp;&nbsp;&boxur; hitechnic-irseeker-v2.h <br/>
+        &nbsp;&nbsp;&nbsp;&boxur; hitechnic-irseeker-v2.h <br/>
     </code>
     
 
