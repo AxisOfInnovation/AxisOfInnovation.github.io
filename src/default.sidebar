@@ -30,6 +30,9 @@
         <hr>
         <ul>
             <li>
+                <a href="programs/movement.html"> Movement.h </a>
+            </li>
+            <li>
                 <a href="programs/autonomous.html"> Autonomous </a>
             </li>
             <li>
