@@ -16,27 +16,20 @@
         <!-- Header grouping, everything releated to it goes here -->
         <header>
             <img src="logo.png" style="float: left; margin-right: 30px;"/>
-            <h1 id="header">The Axis of Innovation</h1>
 
-            <sites>
-                <a id="home" href="index.html">
-                    Home
-                </a>
-                <a href="https://github.com/AxisOfInnovation/">
-                    GitHub
-                </a>
-            </sites>
+            <div>
+                <h1 id="header">The Axis of Innovation</h1>
+
+                <nav>
+                    <!-- REPLACE-WITH-SIDEBAR -->
+                </nav>
+            </div>
         </header>
 
-        <!-- The page beneath the header (sidebar and content) -->
         <div>
 
-            <sidebar>
-                <!-- REPLACE-WITH-SIDEBAR -->
-            </sidebar>
-
             <div id="content">
-                <!-- REPLACE-WITH-CONTENT -->
+                
             </div>
 
         </div>

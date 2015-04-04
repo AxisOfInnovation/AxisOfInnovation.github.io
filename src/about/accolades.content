@@ -4,8 +4,8 @@
     <sidebarItem>about/accolades.html</sidebarItem>
 
     <title>Our Accolades</title>
-    <aoi><acronym title="FTC 7118">The Axis of Innovation</acronym></aoi>
-    <coldsteel><acronym title="FTC 2927">Cold Steel</acronym></coldsteel>
+    <aoi>The Axis of Innovation</aoi>
+    <coldsteel>Cold Steel</coldsteel>
 </meta>
 
 <h1 id="content">Our Accolades</h1>
@@ -17,10 +17,10 @@
 
     <p id="articleInfo">March 2014</p>
     <p id="article">
-        At the first every Super Regional, %aoi% did not do too well at the Super Regional. The tea
+        At the first ever Super Regional, %aoi% did not do too well at the Super Regional. The tea
         m was facing many technical difficulties, including a disfunctional autonomous program and 
         a disconnecting battery. Despite these challenges, %aoi% placed about midway in their brack
-        ets, placing about 35<sup>th</sup> out of 70 teams. Not bad for a rookie team!
+        ets, placing about 35<sup>th</sup> out of 72 teams. Not bad for a rookie team!
     </p>
 
 </article>

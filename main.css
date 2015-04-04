@@ -13,9 +13,9 @@
 /* formats the background */
 body
 {
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
 	background-color: #FFF;
 }
 
@@ -24,17 +24,14 @@ header
 {
 	width 100vw;
 	padding: 15px;
-	padding-bottom: 2px;
+	padding-bottom: 0px;
 	border-bottom: solid 3px #000;
 }
 
-/* formats the sidebar */
-sidebar
+/* formats the */
+nav
 {
-	float: left;
-	height: auto;
-	width: 175px;
-	margin-top: 15px;
+	/* margin-left: 180px; */
 }
 
 /* formatting for each article */
@@ -52,11 +49,10 @@ article
 h1#header
 {
 	margin-top: 16px;
+	margin-bottom: 0px;
 	font-size: 48px;
 	color: #BF0A30;
 	letter-spacing: 5px;
-
-	text-shadow: 1px 1px black;
 }
 
 /* The content header */
@@ -156,40 +152,87 @@ div#content
 /********************************************************/
 /********************************************************/
 /********************************************************/
-/* uls */
+/* navbar styling */
 
-sidebar ul
+nav ul
 {
-	list-style-type: none;
+	text-align: left;
+	display: inline;
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	width: 175px;
+	position: relative;
+
+	transition: all 0.3s ease;
+}
+
+nav ul li:hover
+{
+	color: black;
+}
+
+/** the dropdown menu */
+nav ul li ul
+{
+	padding: 0px;
+	position: absolute;
+	top: 17px;
+	width: 174px;
+	
+	border: 1px solid black;
+	border-top: 3px solid black;
+	background-color: white;
+
+	display: none;
+}
+
+nav ul li:hover ul
+{
+	display: block;
+}
+
+nav ul li ul li
+{
+	padding-right: 0px;
+	width: 160px;
+}
+
+/** an item in a dropdown menu */
+nav ul li ul li a
+{
+	display: block;
 	padding: 5px;
-	padding-left: 20px;
+	padding-left: 15px;
+
+	transition: all 0.2s ease;
 }
 
-/********************************************************/
-/********************************************************/
-/********************************************************/
-/* lis */
-
-/* sidebar list item */
-sidebar ul li
+/** a selected item in a dropdown menu */
+nav ul li ul li:hover a 
 {
-	padding-bottom: 5px;
+	padding-left: 35px;
 }
 
-/* ordered list item in the article and their links */
-article ol li, /**/ article ol li a
+ul li,
+ul li a
 {
-	font-family: "Ubuntu Mono", sans-serif;
-	font-size: 15px;
 	font-weight: bold;
-	line-height: 20px;
+	font-size: 15px;
+	
+	color: #BF0A30;
+	transition: all 0.2s ease;
 }
 
-/* only applies to "article ol li", not "article ol li a" */
-article ol li
+ul li:hover,
+ul li:hover a,
 {
-	margin-left: 30px;
-	padding-bottom: 5px;
+	color: #000;
+	transition: all 0.2s ease;
 }
 
 /********************************************************/
@@ -197,64 +240,19 @@ article ol li
 /********************************************************/
 /* as */
 
-/* all links and the homepage link */
-a, /**/ sites a#home
+a /* all links */
 {
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 14px;
 
 	color: #BF0A30;
-		transition: color 0.5s ease;
+	transition: all 0.2s ease;
 }
 
-/* links when hovered */
-a:hover, /**/ sites a#home:hover
+a:hover /* all links when hovered */
 {
 	color: #000;
-		transition: color 0.7s ease;
-}
-
-sidebar ul li a#current
-{
-	color: #000;
-		transition: color 0.5s ease;
-}
-
-sidebar ul li a#current:hover
-{
-	color: #BF0A30;
-		transition: color 0.5s ease;
-}
-
-/* the various linked sites to other locations */
-sites a
-{
-	padding-left: 33px;
-	
-	color: #000;
-		transition: color 0.5s ease;
-}
-
-/* the counterpart to the above element, but when hovered over */
-sites a:hover
-{
-	color: #BF0A30;
-		transition: color 0.7s ease;
-}
-
-/********************************************************/
-/********************************************************/
-/********************************************************/
-/* hrs */
-
-/* sidebar separators */
-sidebar ul li hr
-{
-	border: solid 1px #000;
-	margin-top: 0px;
-	margin-bottom: 4px;
-	display: block;
 }
 
 

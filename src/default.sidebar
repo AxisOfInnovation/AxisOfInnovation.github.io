@@ -1,13 +1,12 @@
 <ul>
     <li>
-        About
-        <hr>
+        Information
         <ul>
             <li>
-                <a href="about/members.html"> The Team </a>
+                <a href="about/members.html"> About Us </a>
             </li>
             <li>
-                <a href="about/accolades.html"> Accolades </a>
+                <a href="about/accolades.html"> Our Accolades </a>
             </li>
             <li>
                 <a href="about/competition.html"> The Competition </a>
@@ -17,7 +16,6 @@
 
     <li>
         Resources
-        <hr>
         <ul>
             <li>
                 <a href="resources/tilt/tilt.html"> tilt </a>
@@ -27,7 +25,6 @@
 
     <li>
         Programs
-        <hr>
         <ul>
             <li>
                 <a href="programs/movement.html"> Movement.h </a>
