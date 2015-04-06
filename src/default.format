@@ -26,13 +26,9 @@
                 </nav>
             </div>
         </header>
-
-        <div>
-
-            <div id="content">
-                <!-- REPLACE-WITH-CONTENT -->
-            </div>
-
+        
+        <div id="content">
+            <!-- REPLACE-WITH-CONTENT -->
         </div>
 
     </body>
