@@ -1,0 +1,79 @@
+nav ul
+{
+    text-align: left;
+    display: inline;
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    width: 175px;
+    position: relative;
+
+    transition: all 0.3s ease;
+}
+
+nav ul li:hover
+{
+    color: black;
+}
+
+/** the dropdown menu */
+nav ul li ul
+{
+    padding: 0px;
+    position: absolute;
+    top: 17px;
+    width: 174px;
+    background-color: white;
+    border: 1px solid black;
+
+    display: none;
+}
+
+/** the dropdown menu (shown) */
+nav ul li:hover ul
+{
+    display: block;
+}
+
+nav ul li ul li
+{
+    padding-right: 0px;
+    width: 160px;
+}
+
+/** an item in a dropdown menu */
+nav ul li ul li a
+{
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+
+    transition: all 0.2s ease;
+}
+
+/** a selected item in a dropdown menu */
+nav ul li ul li:hover a 
+{
+    padding-left: 35px;
+}
+
+ul li,
+ul li a
+{
+    font-weight: bold;
+    font-size: 15px;
+    
+    color: #BF0A30;
+    transition: all 0.2s ease;
+}
+
+ul li:hover,
+ul li:hover a,
+{
+    color: #000;
+    transition: all 0.2s ease;
+}

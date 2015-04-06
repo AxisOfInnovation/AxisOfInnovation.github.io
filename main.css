@@ -13,25 +13,24 @@
 /* formats the background */
 body
 {
-	width: 60%;
+	background-color: #FFF;
 	margin-left: 20%;
 	margin-right: 20%;
-	background-color: #FFF;
+	width: 60%;
 }
 
 /* formats the site header */
 header
 {
-	width 100vw;
 	padding: 15px;
 	padding-bottom: 0px;
-	border-bottom: solid 3px #000;
 }
 
 /* formats the */
 nav
 {
 	/* margin-left: 180px; */
+	margin-left: 50px;
 }
 
 /* formatting for each article */
@@ -144,95 +143,9 @@ p.splitRight
 /* The division for the content */
 div#content
 {
-	margin-left: 185px;
-	margin-top: 5px;
-	padding: 15px;
-}
-
-/********************************************************/
-/********************************************************/
-/********************************************************/
-/* navbar styling */
-
-nav ul
-{
-	text-align: left;
-	display: inline;
-	list-style: none;
-	padding-left: 0px;
-}
-
-nav ul li
-{
-	display: inline-block;
-	width: 175px;
-	position: relative;
-
-	transition: all 0.3s ease;
-}
-
-nav ul li:hover
-{
-	color: black;
-}
-
-/** the dropdown menu */
-nav ul li ul
-{
-	padding: 0px;
-	position: absolute;
-	top: 17px;
-	width: 174px;
-	
-	border: 1px solid black;
-	border-top: 3px solid black;
-	background-color: white;
-
-	display: none;
-}
-
-nav ul li:hover ul
-{
-	display: block;
-}
-
-nav ul li ul li
-{
-	padding-right: 0px;
-	width: 160px;
-}
-
-/** an item in a dropdown menu */
-nav ul li ul li a
-{
-	display: block;
-	padding: 5px;
-	padding-left: 15px;
-
-	transition: all 0.2s ease;
-}
-
-/** a selected item in a dropdown menu */
-nav ul li ul li:hover a 
-{
-	padding-left: 35px;
-}
-
-ul li,
-ul li a
-{
-	font-weight: bold;
-	font-size: 15px;
-	
-	color: #BF0A30;
-	transition: all 0.2s ease;
-}
-
-ul li:hover,
-ul li:hover a,
-{
-	color: #000;
-	transition: all 0.2s ease;
+	margin-top: 15px;
+	padding: 80px;
+	padding-top: 30px;
 }
 
 /********************************************************/

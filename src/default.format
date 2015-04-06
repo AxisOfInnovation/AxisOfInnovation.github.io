@@ -6,6 +6,7 @@
 
         <!-- Links our external style sheet -->
         <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="stylesheet" type="text/css" href="nav.css"/>
 
         <!-- Safe use of Ubuntu font family <3 -->
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
@@ -17,7 +18,7 @@
         <header>
             <img src="logo.png" style="float: left; margin-right: 30px;"/>
 
-            <div>
+            <div style="margin-left: 180px">
                 <h1 id="header">The Axis of Innovation</h1>
 
                 <nav>
@@ -29,7 +30,7 @@
         <div>
 
             <div id="content">
-                
+                <!-- REPLACE-WITH-CONTENT -->
             </div>
 
         </div>

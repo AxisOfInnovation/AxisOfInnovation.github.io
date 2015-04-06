@@ -1,7 +1,6 @@
 <ul>
     <li>
         About
-        <hr>
         <ul>
             <li>
                 <a href="about/members.html"> The Team </a>
@@ -17,36 +16,15 @@
 
     <li>
         Resources
-        <hr>
         <ul>
             <li>
                 <a href="resources/tilt/tilt.html"> tilt </a>
-                <ul>
-                    <li>
-                        <a href="resources/tilt/remote.html"> Remote.h </a>
-                    </li>
-                    <li>
-                        <a href="resources/tilt/logger.html"> Logger.h </a>
-                    </li>
-                    <li style="font-weight: bold; color: black; font-size: 15px">
-                        Sensors
-                        <ul>
-                            <li>
-                                <a href="resources/tilt/sensors/infrared.html"> Infrared.h </a>
-                            </li>
-                            <li>
-                                <a href="resources/tilt/sensors/sonar.html"> Sonar.h </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
             </li>
         </ul>
     </li>
 
     <li>
         Programs
-        <hr>
         <ul>
             <li>
                 <a href="programs/movement.html"> Movement.h </a>
@@ -60,4 +38,24 @@
         </ul>
     </li>
 
+</ul>
+
+<ul id="sidebar">
+    <li>
+        <a href="resources/tilt/remote.html"> Remote.h </a>
+    </li>
+    <li>
+        <a href="resources/tilt/logger.html"> Logger.h </a>
+    </li>
+    <li style="font-weight: bold; color: black; font-size: 15px">
+        Sensors
+        <ul>
+            <li>
+                <a href="resources/tilt/sensors/infrared.html"> Infrared.h </a>
+            </li>
+            <li>
+                <a href="resources/tilt/sensors/sonar.html"> Sonar.h </a>
+            </li>
+        </ul>
+    </li>
 </ul>
