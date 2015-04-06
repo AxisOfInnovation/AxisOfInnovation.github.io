@@ -39,23 +39,3 @@
     </li>
 
 </ul>
-
-<ul id="sidebar">
-    <li>
-        <a href="resources/tilt/remote.html"> Remote.h </a>
-    </li>
-    <li>
-        <a href="resources/tilt/logger.html"> Logger.h </a>
-    </li>
-    <li style="font-weight: bold; color: black; font-size: 15px">
-        Sensors
-        <ul>
-            <li>
-                <a href="resources/tilt/sensors/infrared.html"> Infrared.h </a>
-            </li>
-            <li>
-                <a href="resources/tilt/sensors/sonar.html"> Sonar.h </a>
-            </li>
-        </ul>
-    </li>
-</ul>
