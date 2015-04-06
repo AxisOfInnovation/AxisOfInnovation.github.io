@@ -1,6 +1,6 @@
 <meta>
-    <formatFile>../../default.format</formatFile>
-    <sidebarFile>tilt.sidebar</sidebarFile>
+    <formatFile>tilt.format</formatFile>
+    <sidebarFile>../../default.sidebar</sidebarFile>
     <sidebarItem>resources/tilt/tilt.html</sidebarItem>
 
     <title>TILT</title>

@@ -16,7 +16,7 @@
 
         <!-- Header grouping, everything releated to it goes here -->
         <header>
-            <img src="logo.png" style="float: left; margin-right: 30px;"/>
+            <a href="index.html"> <img src="logo.png" style="float: left; margin-right: 30px;"/> </a>
 
             <div style="margin-left: 180px">
                 <h1 id="header">The Axis of Innovation</h1>

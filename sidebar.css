@@ -1,0 +1,24 @@
+sidebar
+{
+	float: left;
+	margin-top: 45px;
+	padding: 0px;
+	width: 175px;
+}
+
+sidebar ul
+{
+    list-style: none;
+}
+
+sidebar ul li
+{
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+sidebar ul li.header
+{
+	font-weight: bold;
+	border-bottom: 3px solid black;
+}
