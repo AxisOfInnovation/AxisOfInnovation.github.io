@@ -36,7 +36,11 @@ nav ul li ul
     top: 17px;
     width: 174px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid black; 
+
+    /* shadow!!! */   
+    border-right-width: 2px;
+    border-bottom-width: 2px;
 
     display: none;
 }
