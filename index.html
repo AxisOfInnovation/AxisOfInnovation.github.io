@@ -352,6 +352,10 @@ article > p
     padding-left: 15px;
     padding-right: 15px;
 }
+ .nbpad > h2
+{
+    margin-bottom: 0 !important;
+}
 .nbpad
 {
     padding-bottom: 0 !important;
@@ -367,10 +371,6 @@ article > p
     -moz-animation: fade-in ease-in;
     -o-animation: fade-in ease-in;
     -webkit-animation: fade-in ease-in;
-}
- .nbpad > h3
-{
-    margin-bottom: 0 !important;
 }
 .sheet.left
 {
@@ -521,11 +521,17 @@ code#blue
         <script type="text/javascript">
             /* fixes the "returning to single column from two column" problem */
             window.onload = onLoad;
-            window.onresize = resizeColumns;
+            window.onresize = onResize;
 
             function onLoad()
             {
                 addAnimationDelays();
+                resizeColumns();
+                resizeGrid();
+            }
+
+            function onResize()
+            {
                 resizeColumns();
                 resizeGrid();
             }

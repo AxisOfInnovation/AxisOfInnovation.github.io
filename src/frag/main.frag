@@ -8,11 +8,17 @@
         <script type="text/javascript">
             /* fixes the "returning to single column from two column" problem */
             window.onload = onLoad;
-            window.onresize = resizeColumns;
+            window.onresize = onResize;
 
             function onLoad()
             {
                 addAnimationDelays();
+                resizeColumns();
+                resizeGrid();
+            }
+
+            function onResize()
+            {
                 resizeColumns();
                 resizeGrid();
             }
