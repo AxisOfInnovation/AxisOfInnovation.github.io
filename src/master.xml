@@ -1,0 +1,43 @@
+<master>
+    <option name="outDir" value="../"/>
+    <option name="embedCSS" value="true"/>
+    <option name="stripComments" value="true"/>
+    <option name="noFormatting" value="true"/>
+
+    <defaults>
+        <fragment name="main" file="frag/main.frag"/>
+        <fragment name="nav" file="frag/nav.frag"/>
+
+        <style name="main" file="style/main.css"/>
+        <style name="nav" file="style/nav.css"/>
+        <style name="code" file="style/code.css"/>
+
+        <alias name="title" value="SET ME"/>
+        <alias name="headerextras" value=""/>
+
+        <!-- you have to escape the & in the escape sequences so the HTML isn't parsed directly -->
+        <alias name="&lt;" value="&lt;code&gt;&amp;lt;"/>
+        <alias name="&gt;" value="&amp;gt;&lt;/code&gt;"/>
+    </defaults>
+
+    <!-- Root pages -->
+
+    <page file="index.page">
+        <alias name="title" value="The Team"/>
+    </page>
+
+    <!-- About pages -->
+
+    <page file="about/robots.page">
+        <alias name="title" value="Robots"/>
+    </page>
+
+    <page file="about/history.page">
+        <alias name="title" value="History"/>
+    </page>
+
+    <page file="about/competition.page">
+        <alias name="title" value="The Competition"/>
+    </page>
+
+</master>
