@@ -98,7 +98,9 @@
 
 <div class="sheet ntpad cHorizontal" style="width: 30%; min-width: initial;">
     <h3> Your Name Here </h3>
-    <img src="media/sponsors/you.png" style="max-width: 50%;"/>
+    <a href="mailto:axisofinnovation@gmail.com">
+        <img src="media/sponsors/you.png" style="max-width: 50%;"/>
+    </a>
     <article>
         <p>
             Interested in sponsoring our team and having your name on this page and our shirts? You can contact us regarding sponsorships at <a href="mailto:axisofinnovation@gmail.com">axisofinnovation@gmail.com</a>

@@ -112,7 +112,7 @@
         <div>
             <p class="fglh footer">
                 Copyright &copy; 2015 The Axis of Innovation. All Rights Reserved. <br/>
-                Created by
+                Website designed &amp; created by
                     <a class="fglh"
                        style="font-size: inherit; text-decoration: underline;"
                        href="http://donofanne.github.io/">

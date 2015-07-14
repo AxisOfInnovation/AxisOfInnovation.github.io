@@ -5,7 +5,7 @@
 </a>
 <ul class="nav" style="padding-left: 160px; padding-top: 15px;">
     <li class="navMain">
-        About
+        About Us
         <ul class="nav">
             <li> <a href="about/robots.html"> Robots </a> </li>
             <li> <a href="about/history.html"> History </a> </li>
