@@ -7,6 +7,7 @@
     <li class="navMain">
         About Us
         <ul class="nav">
+            <li> <a href="about/accolades.html"> Accolades </a> </li>
             <li> <a href="about/robots.html"> Robots </a> </li>
             <li> <a href="about/history.html"> History </a> </li>
             <li> <a href="about/competition.html"> The Competition </a> </li>

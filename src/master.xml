@@ -44,4 +44,8 @@
         <alias name="title" value="The Competition"/>
     </page>
 
+    <page file="about/accolades.page">
+        <alias name="title" value="Accolades"/>
+    </page>
+
 </master>

@@ -1,0 +1,71 @@
+<div class="split">
+    <div class="sheet left">
+        <h1> Our Accolades </h1>
+        <article>
+            <p>
+                We are a rather decorated FTC team, given how new the team is, winning awards at the Qualifying and Regional events every year for our robot designs and outreach into less fortunate communities.
+            </p>
+        </article>
+    </div>
+    <div class="sheet right ntpad pic">
+        <img src="media/awards.jpg"/>
+    </div>
+</div>
+
+<div class="sheet ntpad nbpad">
+    <h2> 2014-2015 FTC Season </h2>
+</div>
+
+<div class="grid">
+    <div>
+        <div class="sheet ntpad">
+            <h3> Connect Award </h3>
+            <article>
+                <p>
+                    We won the connect award at the UTA Regional event for our outreach program to an orphange in Mexico, starting an FLL team with them and setting up contacts with other teams and tournaments to help them get started in their competition.
+                </p>
+            </article>
+        </div>
+        <div class="sheet ntpad">
+            <h3> Connect Award </h3>
+            <article>
+                <p>
+                    We won the connect award at the Ben Barber Tech Center qualifier for our planned outreach to a Mexican orphange to help set up an FLL team.
+                </p>
+            </article>
+        </div>
+    </div>
+</div>
+
+<div class="sheet ntpad nbpad">
+    <h2> 2013-2014 FTC Season </h2>
+</div>
+
+<div class="grid">
+    <div>
+        <div class="sheet ntpad">
+            <h3> Inspire Award </h3>
+            <article>
+                <p>
+                    We won the Inspire Award, the most prestigious of any FTC award &mdash; ranked higher than the event winning robots &mdash; at the UTA Regional for our innovative use of omniwheels set up in a holonomic drive train, allowing us to go in any direction from anywhere on the court, and our outreach program where we went to the Grapevine Outreach Center multiple times and demonstrated some simple Lego robots and let the kids build and program their own robots.
+                </p>
+            </article>
+        </div>
+        <div class="sheet ntpad">
+            <h3> Inspire Award </h3>
+            <article>
+                <p>
+                    We won the Inspire award at the CTC Qualifying event as well, for our ability to perform well in the matches and our well prepared engineering notebook, innovative designs, and our first outreach to the Grapevine Outreach Center, helping underpriviliged children have a chance to get into robotics.
+                </p>
+            </article>
+        </div>
+        <div class="sheet ntpad">
+            <h3> Game Award </h3>
+            <article>
+                <p>
+                    We were the second placed team at the CTC Qualifying event, winning all but one of our matches, the loss caused by wireless interference causing us to lose control of our robot.
+                </p>
+            </article>
+        </div>
+    </div>
+</div>
