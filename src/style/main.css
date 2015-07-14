@@ -29,10 +29,12 @@
 .ntpad > h3, .ntpad > h2 { margin-top: 0 !important; }
 
 .nbpad { padding-bottom: 0 !important; }
-.nbpad > h3, .nbpad > h2 { margin-bottom: 0 !important; }
+.nbpad > h3, .nbpad > h3 { margin-bottom: 0 !important; }
 
-.sheet.pic, .sheet.pic img { padding: 0 !important; overflow: hidden; }
-.sheet.pic img { max-width: 100%; }
+.sheet.pic, img { padding: 0 !important; overflow: hidden; }
+.sheet.pic, img { max-width: 100%; }
+
+img { display: block; margin-left: auto; margin-right: auto; }
 
 /***************/
 /* Other stuff */
@@ -107,7 +109,7 @@ div#content
     position: relative;
     left: 3%;
     float: left;
-    width: 46%;
+    width: 45%;
 
     min-width: initial;
     margin-top: 0;
@@ -120,12 +122,24 @@ div#content
     position: relative;
     right: 3%;
     float: right;
-    width: 44%;
+    width: 45%;
 
     min-width: initial;
     margin-top: 0;
 
     clear: right;
+}
+
+.grid .sheet
+{
+    width: 30%;
+    float: left;
+    clear: right;
+    margin-left: 2%;
+
+    margin-top: 2%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 div.sheet > *
@@ -148,8 +162,15 @@ div.sheet > h3
     text-align: center;
     margin-bottom: 0.25em;
     margin-top: 0.25em;
+    padding-left: 0;
+    padding-right: 0;
 
     box-shadow: 0px 0px 4px 1.5px rgba(0,0,0,0.2);
+}
+
+div.sheet > h4
+{
+    margin-bottom: 5px;
 }
 
 div.sheet > h2 /* a subsection on the page */
@@ -217,6 +238,7 @@ article > p
     margin-top: 0px;
     margin-bottom: 15px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*********/

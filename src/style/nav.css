@@ -37,10 +37,10 @@ ul.nav li
 }
 
 /* this only applies to the categories and links directly on the navbar */
-nav > ul.nav > li
+.navMain
 {
     padding: 0px;
-    padding-right: %CategoryWidth%;
+    margin-right: %CategoryWidth%;
     height: inherit;
 }
 

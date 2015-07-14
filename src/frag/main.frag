@@ -14,6 +14,43 @@
             {
                 addAnimationDelays();
                 resizeColumns();
+                resizeGrid();
+            }
+
+            function resizeGrid()
+            {
+                var grids = document.getElementsByClassName( "grid" );
+
+                for ( var i = 0; i < grids.length; i++ )
+                {
+                    var rows = grids[ i ].children;
+
+                    var height = 0;
+                    for ( var j = 0; j < rows.length; j++ )
+                    {
+                        var items = rows[ j ].children;
+                        for ( var k = 0; k < items.length; k++ )
+                        {
+                            for ( var l = 0; l < items[ k ].children.length; l++ )
+                            {
+                                if ( items[ k ].children[ l ].tagName.toLowerCase() === "img" )
+                                {
+                                    items[ k ].children[ l ].style.marginTop = "15px";
+                                    items[ k ].children[ l ].style.marginBottom = "15px";
+                                }
+                            }
+                            height = Math.max( height, items[ k ].clientHeight );
+                        }
+                    }
+                    for ( var j = 0; j < rows.length; j++ )
+                    {
+                        var items = rows[ j ].children;
+                        for ( var k = 0; k < items.length; k++ )
+                        {
+                            items[ k ].style.height = height + "px";
+                        }
+                    }
+                }
             }
 
             function resizeColumns()

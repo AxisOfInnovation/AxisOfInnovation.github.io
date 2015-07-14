@@ -12,7 +12,5 @@
             <li> <a href="about/competition.html"> The Competition </a> </li>
         </ul>
     </li>
-    <li class="navMain">
-        
-    </li>
+    <a href="sponsors.html" class="navMain"> Our Sponsors </a>
 </ul>
