@@ -544,10 +544,11 @@ code#blue
                 {
                     var rows = grids[ i ].children;
 
-                    var height = 0;
                     for ( var j = 0; j < rows.length; j++ )
                     {
                         var items = rows[ j ].children;
+                        var height = 0;
+
                         for ( var k = 0; k < items.length; k++ )
                         {
                             for ( var l = 0; l < items[ k ].children.length; l++ )
@@ -560,10 +561,6 @@ code#blue
                             }
                             height = Math.max( height, items[ k ].clientHeight );
                         }
-                    }
-                    for ( var j = 0; j < rows.length; j++ )
-                    {
-                        var items = rows[ j ].children;
                         for ( var k = 0; k < items.length; k++ )
                         {
                             items[ k ].style.height = height + "px";
