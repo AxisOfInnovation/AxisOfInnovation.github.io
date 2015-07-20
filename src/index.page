@@ -33,12 +33,23 @@
     </div>
 
     <div class="sheet right">
-        <p> Insert Picture </p>
+        <article>
+            <p>
+                Picture
+            </p>
+        </article>
     </div>
 </div>
 
 <div class="split">
-    <img src="media/team/tjd.jpg" class="sheet left pic cHorizontal"/>
+    <!-- <img src="media/team/tjd.jpg" class="sheet left pic cHorizontal"/> -->
+    <div class="sheet left">
+        <article>
+            <p>
+                Picture
+            </p>
+        </article>
+    </div>
 
     <div class="sheet right ntpad">
         <h3> T.J. Durkin </h3>
@@ -60,11 +71,25 @@
         </article>
     </div>
 
-    <img src="media/team/jacobh.jpg" class="sheet right pic cHorizontal"/>
+    <!-- <img src="media/team/jacobh.jpg" class="sheet right pic cHorizontal"/> -->
+    <div class="sheet left">
+        <article>
+            <p>
+                Picture
+            </p>
+        </article>
+    </div>
 </div>
 
 <div class="split">
-    <img src="media/team/chrisk.jpg" class="sheet left pic cHorizontal"/>
+    <!-- <img src="media/team/chrisk.jpg" class="sheet left pic cHorizontal"/> -->
+    <div class="sheet left">
+        <article>
+            <p>
+                Picture
+            </p>
+        </article>
+    </div>
 
     <div class="sheet right ntpad">
         <h3> Chris Kennedy </h3>
@@ -86,11 +111,25 @@
         </article>
     </div>
 
-    <img src="media/team/colbyk.png" class="sheet right pic cHorizontal"/>
+    <!-- <img src="media/team/colbyk.png" class="sheet right pic cHorizontal"/> -->
+    <div class="sheet right">
+        <article>
+            <p>
+                Picture
+            </p>
+        </article>
+    </div>
 </div>
 
 <div class="split">
-    <img src="media/team/micheller.png" class="sheet left pic cHorizontal"/>
+    <div class="sheet left">
+        <article>
+            <p>
+                Picture
+            </p>
+        </article>
+    </div>
+    <!-- <img src="media/team/micheller.png" class="sheet left pic cHorizontal"/> -->
 
     <div class="sheet right ntpad">
         <h3> Michelle Reitz </h3>
@@ -112,5 +151,12 @@
         </article>
     </div>
 
-    <img src="media/team/garrettw.jpg" class="sheet right pic cHorizontal"/>
+    <div class="sheet right">
+        <article>
+            <p>
+                Picture
+            </p>
+        </article>
+    </div>
+    <!-- <img src="media/team/garrettw.jpg" class="sheet right pic cHorizontal"/> -->
 </div>
