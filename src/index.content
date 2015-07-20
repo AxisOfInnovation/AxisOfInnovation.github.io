@@ -1,9 +1,0 @@
-<meta>
-    <formatFile>default.format</formatFile>
-    <sidebarFile>default.sidebar</sidebarFile>
-    <sidebarItem>index.html</sidebarItem>
-
-    <title>Home</title>
-</meta>
-
-<h1 id="content">Home</h1>

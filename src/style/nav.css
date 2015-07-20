@@ -1,0 +1,151 @@
+#define CategoryWidth    as  25px
+#define MenuWidth        as 175px
+#define ExtraItemPadding as   4px
+
+nav
+{
+    min-width: 450px;
+    padding-left: 15%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+ul.nav
+{
+    text-align: left;
+    display: inline;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navMain, .navMain a
+{
+    font-size: 16px;
+
+    color: rgba(255,255,255,1);
+    transition: color 0.3s ease;
+}
+
+.navMain:hover, .navMain > a:hover
+{
+    color: rgba(255,255,255,0.70);
+}
+
+ul.nav li
+{
+    display: inline-block;
+    position: relative;
+}
+
+/* this only applies to the categories and links directly on the navbar */
+.navMain
+{
+    padding: 0px;
+    margin-right: %CategoryWidth%;
+    height: inherit;
+}
+
+/********************/
+/* The context menu */
+/********************/
+
+/* the context menu in its typical state (hidden) */
+ul.nav > li > ul.nav
+{
+    /* position the menu */
+    float: left;
+    position: absolute; /* we're determining its position based on its parent */
+    z-index: 1; /* bring it to the front */
+    width: %MenuWidth%;
+
+    /* no padding in the menu (done in the list item) */
+    /* this allows the sides of the menu to still click on the link */
+    padding: 0px;
+
+    /** these will only apply to the submenus */
+    left: %MenuWidth%; /* moves the context menu over to the right the width of one menu */
+    top: -1px; /* the context menu doesn't move down from its parent at all */
+    display: none; /* the menu isn't displayed until it's parent is hovered over */
+
+    background: white;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.15);
+    border: 1px solid lightgrey;
+}
+
+/* this only applies to the very first context menu */
+nav > ul.nav > li > ul.nav
+{
+    left: 0px;
+    top: 30px;
+}
+
+/* when its parent is hovered over, the context menu becomes visible*/
+ul.nav > li:hover > ul.nav
+{
+    display: block; /* show the menu */
+}
+
+div.subitems
+{
+    width: 0;
+    height: 0;
+    float: right;
+    margin-right: 0.8em;
+    margin-top: 4px;
+
+    border-top:    0.4em solid transparent;
+    border-bottom: 0.4em solid transparent;
+    border-left:   0.4em solid rgba(0,0,0,0.40);
+}
+
+/**********************/
+/* A contex menu item */
+/**********************/
+
+/*
+ * is this awful? yes. But it works!
+ * a li.category is a list item which doesn't contain a link inside of it
+ * the link gets styled as an "empty" list item so that it fills up the entire
+ * item and the item doesn't get move to the right if a user hovers over the
+ * far left side of the item
+ *
+ * Plus, it makes the links bigger and easier to click on!
+ */
+
+/* a typical context menu item */
+li > ul.nav li
+{
+    width: 168px;
+    line-height: normal;
+    padding: 0;
+}
+
+li > ul.nav li
+{
+    padding: 4px 4px 4px 4px;
+}
+
+li > ul.nav li.category,
+li > ul.nav li a
+{
+    font-size: 14px;
+    color: rgba(0,0,0,0.70);
+    background: rgba(0,0,0,0);
+    transition: background 0.2s ease;
+}
+
+li > ul.nav li.category:hover,
+li > ul.nav li:hover
+{
+    background: rgba(0,0,0,0.07);
+}
+
+/****************************/
+/* A context menu item link */
+/****************************/
+
+li > ul.nav li a
+{
+    width: 100%;
+    height: 100%;
+    display: block; /* makes the width and height properties actually do something */
+}
