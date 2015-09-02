@@ -90,6 +90,11 @@ div.content.gallery
     overflow-x: scroll;
     white-space: nowrap;
 }
+div.content.left
+{
+    width: 80%;
+    margin-left: 10%;
+}
 div > h1
 {
     color: #bf0a30;
@@ -121,11 +126,6 @@ body
 {
     padding-top: 20px;
 }
- div.container > div.content.right
-{
-    width: 80%;
-    margin-left: 10%;
-}
  p
 {
     margin: 0;
@@ -156,6 +156,11 @@ html
 {
     height: 100%;
 }
+ div.content.right
+{
+    width: 80%;
+    margin-left: 10%;
+}
 .insetshadow
 {
     box-shadow: inset 1px 2px 5px rgba(0,0,0,0.13);
@@ -179,11 +184,6 @@ div.left hr
 .sbpadding
 {
     padding-bottom: 5px;
-}
-div.container > div.content.left
-{
-    width: 80%;
-    margin-left: 10%;
 }
  div#non-nav
 {
@@ -240,8 +240,6 @@ div.gallery.small img
 div.content
 {
     margin-top: 25px;
-    width: 70%;
-    margin-left: 15%;
 }
 .bbmargin
 {
@@ -439,8 +437,7 @@ code#blue
 
     </body>
 
-    <script src="scripts\jquery-2.1.4.js"></script>
-    <script src="scripts\dev-tools.js"></script>
+    <script src="scripts\jquery-2.1.4.min.js"></script>
     <script src="scripts\resizer.js"></script>
     <script src="scripts\gallery.js"></script>
     <script>
@@ -454,7 +451,6 @@ code#blue
 
         function onLoad()
         {
-            enableDevMode();
             resize();
         }
     </script>
