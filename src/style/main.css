@@ -1,324 +1,107 @@
-/*
- * This is the main style of the website, mostly the positioning
- * of the main elements on the page.
- * See nav.css for everything related to the navigation bar
- */
-#define Primary     as #607D8B
-#define PrimaryDark as #455A64
+html, body, div#non-nav { height: 100%; }
+* { font-size: 16px; font-family: "Open Sans",sans-serif; color: rgba(0,0,0,0.70); }
+body { background: #f9f9f9; margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+div > h1 { color: #bf0a30; font-size: 34px; }
+div > h2 { font-weight: bold; font-size: 27px; }
+div > h3 { font-weight: bold; font-size: 20px; }
+div > p { line-height: 1.5em; }
+a { font-weight: normal; }
 
-#define Accent as #6A9D80
+.sbmargin { margin-bottom: 5px; }
+.mbmargin { margin-bottom: 10px; }
+.bbmargin { margin-bottom: 20px; }
+.stmargin { margin-top: 5px; }
+.mtmargin { margin-top: 10px; }
+.btmargin { margin-top: 20px; }
+.sbpadding { padding-bottom: 5px; }
+.mbpadding { padding-bottom: 10px; }
+.bbpadding { padding-bottom: 20px; }
+.stpadding { padding-top: 5px; }
+.mtpadding { padding-top: 10px; }
+.btpadding { padding-top: 20px; }
+.insetshadow { box-shadow: inset 1px 2px 5px rgba(0,0,0,0.13); }
 
-.bgPrimary { background: %Primary%; }
-.bgPrimaryDark { background: %PrimaryDark%; }
-.bgAccent { background: %Accent%; }
+.footer, .footer * { color: rgba( 0, 0, 0, 0.38 ); font-size: 12px; }
+div.left hr, div.right hr { margin-left: 0; width: 50%; }
+div.content a { color: #bf0a30; }
+hr.spacer { border-color: transparent; }
 
-.fglp { color: rgba(0,0,0,0.70); }
-.fgls { color: rgba(0,0,0,0.54); }
-.fglh { color: rgba(0,0,0,0.26); }
-
-.fgdp { color: white; opacity: 1; }
-.fgds { color: white; opacity: 0.70; }
-.fgdh { color: white; opacity: 0.30; }
-
-.cVertical { display: flex; align-items: center; }
-.cHorizontal { margin-left: auto; margin-right: auto; }
-
-.split { clear: both; margin-bottom: 1.5em; margin-top: 1.5em; }
-
-.ntpad { padding-top: 0 !important; }
-.ntpad > h3, .ntpad > h2 { margin-top: 0 !important; }
-
-.nbpad { padding-bottom: 0 !important; }
-.nbpad > h3, .nbpad > h2 { margin-bottom: 0 !important; }
-
-.sheet.pic, img { padding: 0 !important; overflow: hidden; }
-.sheet.pic, img { max-width: 100%; }
-
-img { display: block; margin-left: auto; margin-right: auto; }
-
-/***************/
-/* Other stuff */
-/***************/
-
-* /* everything's in Calibri cuz swag */
+div.content
 {
-    font-size: 16px;
-    font-family: "Open Sans",sans-serif;
-    color: rgba(0,0,0,0.70);
+    margin-top: 25px;
 }
 
-html, body
+div.container.gallery
 {
-    height: 100%;
+    box-shadow: inset 0px 8px 5px -8px rgba( 0, 0, 0, 0.26 ), inset 0px -8px 5px -8px rgba( 0, 0, 0, 0.26 );
+    background: #333;
+    padding-bottom: 10px;
+    margin: 10px 0px 10px 0px;
 }
 
-body
+div.content.gallery
 {
-    background: #f9f9f9;
-    margin: 0px;
-    padding: 0px;
+    padding: 25px 5px 10px 5px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+div.gallery img
+{
+    max-height: 51vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.gallery.small img
+{
+    max-height: 20vh;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footer
 {
-    text-align: center;
-    font-size: 12px;
-    padding-bottom: 5em;
-    margin-top: 0.5em;
-    clear: both;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 10%;
 }
 
-div#content
+div.content
 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    min-width: 450px;
+    width: 70%;
+    margin-left: 15%;
 }
 
-/***********/
-/* Content */
-/***********/
-
-/* this is a div so that the sizing will actually work properly */
-.sheet
+div.container > div.content.left, div.container > div.content.right
 {
-    overflow: auto;
-
-    background: white;
-    box-shadow: 1px 2px 5px rgba(0,0,0,0.13);
-    border: 1px solid lightgrey;
-
-    padding: 32px 0px 24px 0px;
-
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-
-    min-width: inherit;
-
-    clear: both;
+    width: 80%;
+    margin-left: 10%;
 }
 
-.sheet.left, .sheet.right
-{
-    padding: 24px 0 24px;
-}
+@media only screen and (min-width: 1270px) {
 
-.sheet.left
-{
-    position: relative;
-    left: 3%;
-    float: left;
-    width: 45%;
+    div.left hr, div.right hr { margin-left: auto; width: auto; }
 
-    min-width: initial;
-    margin-top: 0;
-
-    clear: left;
-}
-
-.sheet.right
-{
-    position: relative;
-    right: 3%;
-    float: right;
-    width: 45%;
-
-    min-width: initial;
-    margin-top: 0;
-
-    clear: right;
-}
-
-.grid .sheet
-{
-    width: 30%;
-    float: left;
-    clear: right;
-    margin-left: 2.5%;
-
-    margin-bottom: 2.5%;
-    margin-top: 0;
-    padding-bottom: 0;
-}
-
-div.sheet > *
-{
-    padding: 0px 25px 0px 25px;
-}
-
-div.sheet > h1 /* the header of the page (displayed underneath the site header) */
-{
-    font-size: 40px;
-    margin: 0 15px 0 15px;
-    text-align: center;
-    color: rgba(0,0,0,0.85);
-}
-
-div.sheet > h2,
-div.sheet > h3
-{
-    color: rgba(255,255,255,1);
-    text-align: center;
-    margin-bottom: 0.25em;
-    margin-top: 0.25em;
-    padding-left: 0;
-    padding-right: 0;
-
-    box-shadow: 0px 0px 4px 1.5px rgba(0,0,0,0.2);
-}
-
-div.sheet > h4
-{
-    margin-bottom: 5px;
-}
-
-div.sheet > h2 /* a subsection on the page */
-{
-    font-size: 29px;
-    background-color: %Primary%;
-
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-div.sheet > h3
-{
-    background-color: %Accent%;
-    font-size: 22px;
-
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-/*******************/
-/* Content fade-in */
-/*******************/
-
-.sheet, .footer { animation: fade-in ease-in; }
-.footer{ animation-delay: 0.1s; }
-
-/*********/
-/* Links */
-/*********/
-
-a
-{
-    text-decoration: none;
-}
-
-div.sheet a
-{
-    color: %PrimaryDark%;
-    font-weight: bold;
-}
-
-/**************/
-/* Paragraphs */
-/**************/
-
-p.info
-{
-    margin: 0;
-    font-size: 12px;
-    color: rgba(0,0,0,0.54);
-}
-
-article
-{
-    margin-top: 0px;
-    padding-top: 15px;
-}
-
-/* all paragraphs in an article */
-article > p
-{
-    margin-left: 11.25px;
-    line-height: 35px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/*********/
-/* Lists */
-/*********/
-
-ol > li,
-ul > li
-{
-    line-height: 35px;
-    padding-bottom: 10px;
-}
-
-ol > li:last-of-type,
-ul > li:last-of-type
-{
-    padding-bottom: 0px;
-}
-
-ul > li
-{
-    list-style: none;
-}
-
-/**************************/
-/* Hover-only Information */
-/**************************/
-
-p.hoverbox /* hide the hover box */
-{
-    font-weight: normal;
-    background: white;
-
-    z-index: 1;
-
-    /* hide the text */
-    margin: 0px;
-    max-width: 30%;
-    padding: 5px 10px 5px 10px;
-    line-height: 18px;
-
-    position: absolute;
-    top: inherit;
-
-    border: 1px solid lightgrey;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.13);
-
-    transform: translate(-100vw, 0);
-    transition: transform 0.6s ease-in-out;
-}
-
-.hoverinfo:hover > p.hoverbox /* show the hover box */
-{
-    transform: translate(0, 0);
-}
-
-.hoverinfo /* mark this as hover-capable */
-{
-    font-weight: bold;
-    color: %Accent%;
-
-    /* this makes the width only as wide as the content it contains! */
-    width: auto;
-    display: table;
-}
-
-/**************/
-/* Animations */
-/**************/
-
-@keyframes fade-in
-{
-    from
+    div.content.left
     {
-        opacity: 0;
-        transform: translate(0, 15vh);
+        float: left;
+        width: 34%;
+        margin-left: 15%;
+        margin-right: 0;
     }
-    to
+
+    div.content.right
     {
-        opacity: auto;
-        transform: translate(0, 0);
+        float: right;
+        width: 34%;
+        margin-left: 0;
+        margin-right: 15%;
+    }
+
+    .footer
+    {
+        margin-left: 15%;
     }
 }

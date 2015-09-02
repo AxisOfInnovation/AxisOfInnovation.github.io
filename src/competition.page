@@ -1,25 +1,23 @@
-<div class="sheet ntpad nbpad">
-    <h2> FTC 2014-2015 Game </h2>
+<div class="content btmargin bbmargin">
+    <h2 class="mtmargin"> FTC 2015 Game </h2>
+    <hr/>
+    <iframe style="display:block;margin-left:auto;margin-right:auto;"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ABmBxCwHV94?start=165&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen>
+    </iframe>
 </div>
 
-<iframe class="sheet pic cHorizontal"
-        style="display:block;"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ABmBxCwHV94?start=165&amp;showinfo=0"
-        frameborder="0"
-        allowfullscreen>
-</iframe>
-
-<div class="sheet ntpad nbpad">
-    <h2> FTC 2013-2014 Game </h2>
+<div class="content btmargin">
+    <h2 class="mtmargin"> FTC 2014 Game </h2>
+    <hr/>
+    <iframe style="display:block;margin-left:auto;margin-right:auto;"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/UPAATO-NpcM?start=135&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen>
+    </iframe>
 </div>
-
-<iframe class="sheet pic cHorizontal"
-        style="display:block;"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/UPAATO-NpcM?start=135&amp;showinfo=0"
-        frameborder="0"
-        allowfullscreen>
-</iframe>

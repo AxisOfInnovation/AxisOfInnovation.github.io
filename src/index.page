@@ -1,162 +1,26 @@
-<div class="sheet">
-    <h1> The Axis of Innovation </h1>
-
-    <article>
+<div class="container">
+    <div class="content left mtmargin">
+        <h1 class="bbmargin mtmargin"> The Axis of Innovation </h1>
+        <h3> An FTC Robotics team from Colleyville, Texas </h3>
+    </div>
+    <div class="content right">
+        <h2 class="bbmargin btmargin"> Run by the members, not mentors </h2>
         <p>
-            We are an FTC team, and aspiring FRC team should we get the funds to do so, out of Colleyville, Texas, since 2013
-            (although many of our members are a splinter group from another, now defunct, FTC team in 2012). We have made it 
-            to the Super-Regional, the third of four levels in FTC, every year since we were founded. 
+            Our goal is to offer middle and high school students an opprotunity to work with robotics technologies hands-on, helping them learn to succeed in the world of engineering through both their successes and failures. By allowing the members to fail, we teach them to learn from their mistakes and improve on it next time, this can only be done through the hands-off method of mentorship we value on this team.
         </p>
-    </article>
-
-    <h3> Mission Statement </h3>
-    <article>
-        <p>
-            Our goal is to offer middle and high school students an opportunity to work with robotics technology hands-on, allowing them to learn how to succeed in the world of engineering, in- and outside of the classroom. By focusing on experience through robotics competitions with other high and middle school students on other teams, we spur competition and cooperation in the design and production processes, as they would experience in the real world.
-        </p>
-    </article>
-
-</div>
-
-<div class="sheet ntpad nbpad">
-    <h2> The Team </h2>
-</div>
-
-<div class="split">
-    <div class="sheet left ntpad">
-        <h3> Austin Donovan </h3>
-        <article>
-            <p>
-                I am a 17-year-old senior at Colleyville Heritage. This is my fourth year of competing on an FTC team and my third year on the Axis of Innovation, I also compete in Science Olypmiad and will compete in UIL Computer Science this year. I am the lead programmer, managing other programmers, and developing the teleop. I also design and update the website, as well as manage scheduling and meetings.
-            </p>
-        </article>
-    </div>
-
-    <div class="sheet right">
-        <article>
-            <p>
-                Picture
-            </p>
-        </article>
     </div>
 </div>
 
-<div class="split">
-    <!-- <img src="media/team/tjd.jpg" class="sheet left pic cHorizontal"/> -->
-    <div class="sheet left">
-        <article>
-            <p>
-                Picture
-            </p>
-        </article>
+<div class="container gallery">
+    <div class="content gallery">
+        <span> <img src="/media/awards.jpg"/> </span>
+        <span> <img src="/media/robot/15/1.jpg"/> </span>
+        <span> <img src="/media/robot/15/4.jpg"/> </span>
+        <span> <img src="/media/robot/15/5.jpg"/>  </span>
+        <span> <img src="/media/robot/15/6.jpg"/>  </span>
+        <span> <img src="/media/robot/15/7.jpg"/> </span>
+        <span> <img src="/media/robot/15/8.jpg"/> </span>
+        <span> <img src="/media/robot/14/1.jpg"/>  </span>
+        <span> <img src="/media/robot/14/2.jpg"/> </span>
     </div>
-
-    <div class="sheet right ntpad">
-        <h3> T.J. Durkin </h3>
-        <article>
-            <p>
-                I am a 17-year-old senior at Colleyville Heritage High School. This is my fourth year in FTC. I also compete in Science Olymiad and run cross country and track. My role on the team is to do all of the paperwork and manage the meetings. I also help with designing and am the lead builder.
-            </p>
-        </article>
-    </div>
-</div>
-
-<div class="split">
-    <div class="sheet left ntpad">
-        <h3> Jacob Hethcock </h3>
-        <article>
-            <p>
-                I am a 17-year-old senior attending Colleyville Heritage High School. This is my fourth year in FTC and my sixth year participating on a FIRST team. I run cross country, participate in Science Olympiad, and play soccer.
-            </p>
-        </article>
-    </div>
-
-    <!-- <img src="media/team/jacobh.jpg" class="sheet right pic cHorizontal"/> -->
-    <div class="sheet left">
-        <article>
-            <p>
-                Picture
-            </p>
-        </article>
-    </div>
-</div>
-
-<div class="split">
-    <!-- <img src="media/team/chrisk.jpg" class="sheet left pic cHorizontal"/> -->
-    <div class="sheet left">
-        <article>
-            <p>
-                Picture
-            </p>
-        </article>
-    </div>
-
-    <div class="sheet right ntpad">
-        <h3> Chris Kennedy </h3>
-        <article>
-            <p>
-                I am a 16-year-old sophomore at Colleyville Heritage High School. I have been in FTC for 3 years and did FLL as an elementary school student. I play football, work at my church, and am in high-level Advanced Placement classes. My job on the team is making sure that the notebook is up-to-date and done correctly, as well as the team outreach.
-            </p>
-        </article>
-    </div>
-</div>
-
-<div class="split">
-    <div class="sheet left ntpad">
-        <h3> Colby Kennedy </h3>
-        <article>
-            <p>
-                I am a 17-year-old senior at Colleyville Heritage High School. This is my fourth year of FTC and my fifth year of FIRST programs. I also play piano, participate in Science Olympiad, and play in a a jazz band. My role on the team is a lead designer.
-            </p>
-        </article>
-    </div>
-
-    <!-- <img src="media/team/colbyk.png" class="sheet right pic cHorizontal"/> -->
-    <div class="sheet right">
-        <article>
-            <p>
-                Picture
-            </p>
-        </article>
-    </div>
-</div>
-
-<div class="split">
-    <div class="sheet left">
-        <article>
-            <p>
-                Picture
-            </p>
-        </article>
-    </div>
-    <!-- <img src="media/team/micheller.png" class="sheet left pic cHorizontal"/> -->
-
-    <div class="sheet right ntpad">
-        <h3> Michelle Reitz </h3>
-        <article>
-            <p>
-                I'm a junior at Colleyville Heritage High School, and love science and mathematics above all other subjects. This is my third year doing robotics, and it has been great fun. In addition to robotics, I am highly involved in Science Olympiad, piano, Destination Imagination, and Exploravision. I love everything I do, although balancing all my activities with school work can sometimes be tiring. When I am older, I hope to become an aerospace or mechanical engineer, so I can put all of my developing engineering skills to work!
-            </p>
-        </article>
-    </div>
-</div>
-
-<div class="split">
-    <div class="sheet left ntpad">
-        <h3> Garrett Wezniak </h3>
-        <article>
-            <p>
-                I am a 16-year-old junior at Colleyville Heritage High School and this is my third year participating in FTC. I enjoy academically focused activities and am also involved in Science Olympiad, Math UIL, Explore Vision and INTERACT (The youth division of Rotary International). I help with the designing and building of the robot and am hoping to possibly aid in the programming this year. I am American, but have lived internationally in Belgium and Singapore.
-            </p>
-        </article>
-    </div>
-
-    <div class="sheet right">
-        <article>
-            <p>
-                Picture
-            </p>
-        </article>
-    </div>
-    <!-- <img src="media/team/garrettw.jpg" class="sheet right pic cHorizontal"/> -->
 </div>
