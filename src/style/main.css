@@ -68,7 +68,7 @@ div.gallery.small img
     margin-left: 10%;
 }
 
-div.content
+div.content:not(.gallery)
 {
     width: 70%;
     margin-left: 15%;
