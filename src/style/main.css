@@ -83,17 +83,17 @@ div.gallery.small img
 img.content.left, img.content.right
 {
     max-height: 40vh;
-    margin-left: auto;
-    margin-right: auto;
     width: auto;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media only screen and (min-width: 1270px) {
 
     div.left hr, div.right hr { margin-left: auto; width: auto; }
 
-    .content.left
+    .content.left, img.content.left
     {
         float: left;
         width: 34%;
@@ -101,7 +101,7 @@ img.content.left, img.content.right
         margin-right: 0;
     }
 
-    .content.right
+    .content.right, img.content.right
     {
         float: right;
         width: 34%;
