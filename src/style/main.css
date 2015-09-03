@@ -27,7 +27,7 @@ div.left hr, div.right hr { margin-left: 0; width: 50%; }
 div.content a { color: #bf0a30; }
 hr.spacer { border-color: transparent; }
 
-div.content
+.content
 {
     margin-top: 25px;
 }
@@ -68,23 +68,32 @@ div.gallery.small img
     margin-left: 10%;
 }
 
-div.content:not(.gallery)
+.content:not(.gallery)
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.content.left, .content.right
 {
     width: 70%;
     margin-left: 15%;
 }
 
-div.content.left, div.content.right
+img.content.left, img.content.right
 {
-    width: 80%;
-    margin-left: 10%;
+    max-height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: block;
 }
 
 @media only screen and (min-width: 1270px) {
 
     div.left hr, div.right hr { margin-left: auto; width: auto; }
 
-    div.content.left
+    .content.left
     {
         float: left;
         width: 34%;
@@ -92,7 +101,7 @@ div.content.left, div.content.right
         margin-right: 0;
     }
 
-    div.content.right
+    .content.right
     {
         float: right;
         width: 34%;

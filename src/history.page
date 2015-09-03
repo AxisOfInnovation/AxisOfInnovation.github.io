@@ -18,9 +18,14 @@
 </div>
 
 <div class="container">
-    <div class="content left mtmargin">
+    <div class="content mtmargin">
         <h2> 2015 Season </h2>
         <hr/>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content left mtmargin">
         <h3 class="mtmargin"> Qualifier </h3>
         <h4> Mansfield Performing Arts Center </h4>
         <p>
@@ -28,8 +33,6 @@
         </p>
     </div>
     <div class="content right mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Regional </h3>
         <h4> University of Texas at Arlington </h4>
         <p>
@@ -40,8 +43,6 @@
 
 <div class="container">
     <div class="content left mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Super Regional </h3>
         <h4> Henry B. Gonzales Convention Center </h4>
         <p>
@@ -54,9 +55,14 @@
 </div>
 
 <div class="container">
-    <div class="content left mtmargin">
+    <div class="content btmargin">
         <h2> 2014 Season </h2>
         <hr/>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content left mtmargin">
         <h3 class="mtmargin"> Qualifier </h3>
         <h4> University of Texas at Dallas </h4>
         <p>
@@ -67,8 +73,6 @@
         </p>
     </div>
     <div class="content right mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Qualifier </h3>
         <h4> Central Texas College </h4>
         <p>
@@ -81,9 +85,7 @@
 </div>
 
 <div class="container">
-    <div class="content left mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
+    <div class="content left btmargin">
         <h3 class="mtmargin"> Regional </h3>
         <h4> University of Texas at Arlington </h4>
         <p>
@@ -91,8 +93,6 @@
         </p>
     </div>
     <div class="content right mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Super Regional </h3>
         <h4> Henry B. Gonzales Convention Center </h4>
         <p>

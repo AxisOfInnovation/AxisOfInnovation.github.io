@@ -9,14 +9,11 @@ nav
     box-shadow: 0px 2px 5px rgba( 0, 0, 0, 0.2 );
     z-index: 1;
 }
-li.logo
+nav > ul.nav
 {
-    background: linear-gradient( 180deg, #171717, #2C2C2C, #171717 );
-    height: inherit;
-    display: inline-block !important;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 10px 0px 10px -10px rgba(0, 0, 0, 0.4), -10px 0px 10px -10px rgba(0, 0, 0, 0.4);
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 ul.nav > li
 {
@@ -24,6 +21,10 @@ ul.nav > li
     display: inline;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+ul.nav > li:not(.logo)
+{
+    bottom: 15px;
 }
 ul.nav > li:not(.logo) > a
 {
@@ -46,144 +47,40 @@ ul.nav > li:not(.logo) > a:hover
     -o-transition: color 0.2s ease;
     -webkit-transition: color 0.2s ease;
 }
-ul.nav > li:not(.logo)
+li.logo
 {
-    bottom: 15px;
-}
-nav > ul.nav
-{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    background: linear-gradient( 180deg, #171717, #2C2C2C, #171717 );
+    height: inherit;
+    display: inline-block !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 0px 10px -10px rgba(0, 0, 0, 0.4), -10px 0px 10px -10px rgba(0, 0, 0, 0.4);
 }
 @media only screen and ( max-width: 810px )
 {
+ul.nav > li:not(.logo) > a
+{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
 nav
 {
     padding-left: 5%;
     overflow-x: scroll;
     white-space: nowrap;
 }
-ul.nav > li:not(.logo) > a
-{
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-}
 
 }
 
 </style>
 <style>
-div > h3
-{
-    font-weight: bold;
-    font-size: 20px;
-}
-div > h2
-{
-    font-weight: bold;
-    font-size: 27px;
-}
-div.content.gallery
-{
-    padding: 25px 5px 10px 5px;
-    overflow-x: scroll;
-    white-space: nowrap;
-}
-div.content.left
-{
-    width: 80%;
-    margin-left: 10%;
-}
-div > h1
-{
-    color: #bf0a30;
-    font-size: 34px;
-}
-.mtmargin
-{
-    margin-top: 10px;
-}
-h1
-{
-    margin: 0;
-}
-.sbmargin
-{
-    margin-bottom: 5px;
-}
-.stpadding
-{
-    padding-top: 5px;
-}
-body
-{
-    background: #f9f9f9;
-    margin: 0px;
-    padding: 0px;
-}
-.btpadding
-{
-    padding-top: 20px;
-}
- p
-{
-    margin: 0;
-}
-.mtpadding
-{
-    padding-top: 10px;
-}
-div.gallery img
-{
-    max-height: 51vh;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-div > p
-{
-    line-height: 1.5em;
-}
-hr.spacer
-{
-    border-color: transparent;
-}
-.mbpadding
-{
-    padding-bottom: 10px;
-}
 html
 {
     height: 100%;
 }
- div.content.right
+ body
 {
-    width: 80%;
-    margin-left: 10%;
-}
-.insetshadow
-{
-    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.13);
-}
-div.container.gallery
-{
-    box-shadow: inset 0px 8px 5px -8px rgba( 0, 0, 0, 0.26 ), inset 0px -8px 5px -8px rgba( 0, 0, 0, 0.26 );
-    background: #333;
-    padding-bottom: 10px;
-    margin: 10px 0px 10px 0px;
-}
-a
-{
-    font-weight: normal;
-}
-div.left hr
-{
-    margin-left: 0;
-    width: 50%;
-}
-.sbpadding
-{
-    padding-bottom: 5px;
+    height: 100%;
 }
  div#non-nav
 {
@@ -195,21 +92,23 @@ div.left hr
     font-family: "Open Sans",sans-serif;
     color: rgba(0,0,0,0.70);
 }
+body
+{
+    background: #f9f9f9;
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    margin: 0;
+}
  h2
 {
     margin: 0;
 }
-.mbmargin
-{
-    margin-bottom: 10px;
-}
  h3
 {
     margin: 0;
-}
-.bbpadding
-{
-    padding-bottom: 20px;
 }
  h4
 {
@@ -223,41 +122,84 @@ div.left hr
 {
     margin: 0;
 }
-div.gallery.small img
+ p
 {
-    max-height: 20vh;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0;
 }
-.stmargin
+div > h1
 {
-    margin-top: 5px;
+    color: #bf0a30;
+    font-size: 34px;
 }
-.btmargin
+div > h2
 {
-    margin-top: 20px;
+    font-weight: bold;
+    font-size: 27px;
 }
-div.content
+div > h3
 {
-    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
 }
-div.content:not(.gallery)
+div > p
 {
-    width: 70%;
-    margin-left: 15%;
+    line-height: 1.5em;
+}
+a
+{
+    font-weight: normal;
+}
+.sbmargin
+{
+    margin-bottom: 5px;
+}
+.mbmargin
+{
+    margin-bottom: 10px;
 }
 .bbmargin
 {
     margin-bottom: 20px;
 }
- .footer *
+.stmargin
 {
-    color: rgba( 0, 0, 0, 0.38 );
-    font-size: 12px;
+    margin-top: 5px;
 }
- body
+.mtmargin
 {
-    height: 100%;
+    margin-top: 10px;
+}
+.btmargin
+{
+    margin-top: 20px;
+}
+.sbpadding
+{
+    padding-bottom: 5px;
+}
+.mbpadding
+{
+    padding-bottom: 10px;
+}
+.bbpadding
+{
+    padding-bottom: 20px;
+}
+.stpadding
+{
+    padding-top: 5px;
+}
+.mtpadding
+{
+    padding-top: 10px;
+}
+.btpadding
+{
+    padding-top: 20px;
+}
+.insetshadow
+{
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.13);
 }
 .footer
 {
@@ -266,6 +208,16 @@ div.content:not(.gallery)
     margin-top: 15px;
     margin-bottom: 30px;
     margin-left: 10%;
+}
+ .footer *
+{
+    color: rgba( 0, 0, 0, 0.38 );
+    font-size: 12px;
+}
+div.left hr
+{
+    margin-left: 0;
+    width: 50%;
 }
  div.right hr
 {
@@ -276,77 +228,109 @@ div.content a
 {
     color: #bf0a30;
 }
+hr.spacer
+{
+    border-color: transparent;
+}
+.content
+{
+    margin-top: 25px;
+}
+div.container.gallery
+{
+    box-shadow: inset 0px 8px 5px -8px rgba( 0, 0, 0, 0.26 ), inset 0px -8px 5px -8px rgba( 0, 0, 0, 0.26 );
+    background: #333;
+    padding-bottom: 10px;
+    margin: 10px 0px 10px 0px;
+}
+div.content.gallery
+{
+    padding: 25px 5px 10px 5px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+div.gallery img
+{
+    max-height: 51vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div.gallery.small img
+{
+    max-height: 20vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content:not(.gallery)
+{
+    width: 80%;
+    margin-left: 10%;
+}
+.content.left
+{
+    width: 70%;
+    margin-left: 15%;
+}
+ .content.right
+{
+    width: 70%;
+    margin-left: 15%;
+}
+img.content.left
+{
+    max-height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: block;
+}
+ img.content.right
+{
+    max-height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: block;
+}
 @media only screen and (min-width: 1270px)
 {
+div.left hr
+{
+    margin-left: auto;
+    width: auto;
+}
  div.right hr
 {
     margin-left: auto;
     width: auto;
 }
-div.content.left
+.content.left
 {
     float: left;
     width: 34%;
     margin-left: 15%;
     margin-right: 0;
 }
-.footer
-{
-    margin-left: 15%;
-}
-div.left hr
-{
-    margin-left: auto;
-    width: auto;
-}
-div.content.right
+.content.right
 {
     float: right;
     width: 34%;
     margin-left: 0;
     margin-right: 15%;
 }
+.footer
+{
+    margin-left: 15%;
+}
 
 }
 
 </style>
 <style>
-.code.red
-{
-    color: #800000;
-}
-
-code#green
-{
-    color: #008000;
-}
 code
 {
     font-family: "monospace" !important;
     font-size: 14px;
-}
-.code.green
-{
-    color: #008000;
-}
-.code.blue
-{
-    color: #000080;
-}
- .code *
-{
-    font-family: "monospace" !important;
-    font-size: 14px;
-}
-
-code#red
-{
-    color: #800000;
-}
-
-code#blue
-{
-    color: #000080;
 }
 
 
@@ -354,6 +338,38 @@ code#blue
 {
     font-family: "monospace" !important;
     font-size: 14px;
+}
+ .code *
+{
+    font-family: "monospace" !important;
+    font-size: 14px;
+}
+.code.red
+{
+    color: #800000;
+}
+
+code#red
+{
+    color: #800000;
+}
+.code.blue
+{
+    color: #000080;
+}
+
+code#blue
+{
+    color: #000080;
+}
+.code.green
+{
+    color: #008000;
+}
+
+code#green
+{
+    color: #008000;
 }
 
 </style>
@@ -422,9 +438,14 @@ code#blue
 </div>
 
 <div class="container">
-    <div class="content left mtmargin">
+    <div class="content mtmargin">
         <h2> 2015 Season </h2>
         <hr/>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content left mtmargin">
         <h3 class="mtmargin"> Qualifier </h3>
         <h4> Mansfield Performing Arts Center </h4>
         <p>
@@ -432,8 +453,6 @@ code#blue
         </p>
     </div>
     <div class="content right mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Regional </h3>
         <h4> University of Texas at Arlington </h4>
         <p>
@@ -444,8 +463,6 @@ code#blue
 
 <div class="container">
     <div class="content left mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Super Regional </h3>
         <h4> Henry B. Gonzales Convention Center </h4>
         <p>
@@ -458,9 +475,14 @@ code#blue
 </div>
 
 <div class="container">
-    <div class="content left mtmargin">
+    <div class="content btmargin">
         <h2> 2014 Season </h2>
         <hr/>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content left mtmargin">
         <h3 class="mtmargin"> Qualifier </h3>
         <h4> University of Texas at Dallas </h4>
         <p>
@@ -471,8 +493,6 @@ code#blue
         </p>
     </div>
     <div class="content right mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Qualifier </h3>
         <h4> Central Texas College </h4>
         <p>
@@ -485,9 +505,7 @@ code#blue
 </div>
 
 <div class="container">
-    <div class="content left mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
+    <div class="content left btmargin">
         <h3 class="mtmargin"> Regional </h3>
         <h4> University of Texas at Arlington </h4>
         <p>
@@ -495,8 +513,6 @@ code#blue
         </p>
     </div>
     <div class="content right mtmargin">
-        <h2> &nbsp; </h2>
-        <hr class="spacer"/>
         <h3 class="mtmargin"> Super Regional </h3>
         <h4> Henry B. Gonzales Convention Center </h4>
         <p>
