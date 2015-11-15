@@ -70,12 +70,6 @@ div.gallery.small img
 
 .content:not(.gallery)
 {
-    width: 80%;
-    margin-left: 10%;
-}
-
-.content.left, .content.right
-{
     width: 70%;
     margin-left: 15%;
 }
