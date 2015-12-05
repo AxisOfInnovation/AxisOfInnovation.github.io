@@ -11,7 +11,7 @@
 
         %nav%
 
-        <div id="non-nav">
+        <div>
             %content%
             
             <div>

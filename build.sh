@@ -1,7 +1,7 @@
 while true
 do
 	date
-	inotifywait -e close_write -rq src/
+	inotifywait -e CLOSE_WRITE -r -q src/
 	java -jar WebDev.jar "src/master.xml"
 	clear
 done

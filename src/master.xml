@@ -13,6 +13,7 @@
         <style name="code" file="style/code.css"/>
 
         <alias name="title" value="LOREM IPSUM"/>
+        <alias name="greenhillmap" value="http://www.greenhill.org/ftpimages/136/download/Greenhill%20School%20-%20Campus%20Map.pdf"/>
     </defaults>
 
     <!-- Root pages -->
