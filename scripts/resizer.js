@@ -29,7 +29,7 @@ function resizeContainers()
             }
             else
             {
-                $( this ).children( 'div.content' ).each(
+                $( this ).children( 'div.content:not(.schedule)' ).each(
                     function( i )
                     {
                         var height = $( this ).outerHeight( 'initial' ).outerHeight(); // gets the outer height after setting it to the original height

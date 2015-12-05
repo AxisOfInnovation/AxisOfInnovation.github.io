@@ -32,10 +32,10 @@
 </div>
 
 <div class="container">
-    <div class="content left" style="text-align: right;">
+    <div class="content left schedule">
         <h2> League Meet </h2>
     </div>
-    <div class="content right">
+    <div class="content right scheduleinfo">
         <p> 12 December, 2015 </p>
         <p> 8:00 A.M. - 12:00 P.M. </p>
         <p> <a href="%greenhillmap%">Fulton Upper School</a> at Greenhill School </p>
@@ -43,10 +43,10 @@
     </div>
 </div>
 <div class="container">
-    <div class="content left" style="text-align: right;">
+    <div class="content left schedule">
         <h2> League Meet </h2>
     </div>
-    <div class="content right">
+    <div class="content right scheduleinfo">
         <p> 9 January, 2016 </p>
         <p> 8:00 A.M. - 12:00 P.M. </p>
         <p> <a href="%greenhillmap%">Fulton Upper School</a> at Greenhill School </p>
@@ -54,10 +54,10 @@
     </div>
 </div>
 <div class="container">
-    <div class="content left" style="text-align: right;">
+    <div class="content left schedule">
         <h2> League Meet </h2>
     </div>
-    <div class="content right">
+    <div class="content right scheduleinfo">
         <p> 16 January, 2016 </p>
         <p> 8:00 A.M. - 12:00 P.M. </p>
         <p> <a href="%greenhillmap%">Fulton Upper School</a> at Greenhill School </p>
@@ -65,10 +65,10 @@
     </div>
 </div>
 <div class="container">
-    <div class="content left" style="text-align: right;">
+    <div class="content left schedule">
         <h2> League Championship </h2>
     </div>
-    <div class="content right">
+    <div class="content right scheduleinfo">
         <p> 23 January, 2016 </p>
         <p> 8:00 A.M. - 12:00 P.M. </p>
         <p> <a href="%greenhillmap%">Fulton Upper School</a> at Greenhill School </p>
