@@ -1,34 +1,7 @@
-<nav>
-    <ul class="nav">
-        <li class="logo">
-            <a href="index.html">
-                <img src="media/aoil_color.png"/>
-            </a>
-        </li>
-        <li>
-            <a href="index.html">
-                Home
-            </a>
-        </li>
-        <li>
-            <a href="accolades.html">
-                Accolades
-            </a>
-        </li>
-        <li>
-            <a href="history.html">
-                History
-            </a>
-        </li>
-        <li>
-            <a href="sponsors.html" class="navMain">
-                Our Sponsors
-            </a>
-        </li>
-        <li>
-            <a href="competition.html" class="navMain">
-                The Competition
-            </a>
-        </li>
-    </ul>
-</nav>
+nav < ul.nav
+    li.logo < a(href: "index.html") < img(src: "media/aoil_color.png")
+    li < a(href: "index.html") < "Home"
+    li < a(href: "accolades.html") < "Accolades"
+    li < a(href: "history.html") < "History"
+    li < a.navMain(href: "sponsors.html") < "Our Sponsors"
+    li < a.navMain(href: "competition.html") < "The Competition"

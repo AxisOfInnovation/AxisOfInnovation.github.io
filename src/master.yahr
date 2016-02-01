@@ -1,0 +1,21 @@
+option(name: "out-dir")   < "../"
+option(name: "embed-css") < "true"
+option(name: "condense")  < "true"
+
+defaults
+    fragment(name: "main") < "frag/main.frag"
+    fragment(name: "nav")  < "frag/nav.frag"
+
+    css(name: "main") < "style/main.css"
+    css(name: "nav")  < "style/nav.css"
+
+    alias(name: "title") < "Lorem Ipsum"
+
+page(path: "index.page")
+    alias(name: "title") < "Home"
+    alias(name: "ghmap") < "http://www.greenhill.org/ftpimages/136/download/Greenhill%20School%20-%20Campus%20Map.pdf"
+
+page(path: "accolades.page") < alias(name: "title") < "Our Accolades"
+page(path: "competition.page") < alias(name: "title") < "The Competition"
+page(path: "history.page") < alias(name: "title") < "History"
+page(path: "sponsors.page") < alias(name: "title") < "Our Sponsors"
