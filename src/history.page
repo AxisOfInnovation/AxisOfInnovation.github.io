@@ -24,8 +24,6 @@ div.container
         h4 < "Greenhill School"
         p
             "2016 marked First Tech Challenge's first implementation a league play system instead of a qualifier. This new system would involve teams going to many qualifying competitions--whose results would be compiled--instead of just one. Eager to try out the new system, we joined Emerald League. Our league matches started out fairly poor, but the frequent competitions gave us both incentive and inspiration for improvement. Many of our mechanisms in the past have been mostly untested when we got to our competitions. This year, we began similarly, but the abundance of competitions allowed us ample time to improve. Our performances increased in quality, until we were the #1 team at several of our final league matches."
-
-div.container
     div.content.right.mtmargin
         h3.mtmargin < "League Championship"
         h4 < "Greenhill School"
