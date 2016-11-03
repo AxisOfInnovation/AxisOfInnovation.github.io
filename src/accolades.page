@@ -3,7 +3,7 @@ div.container
         h1.bbmargin.mtmargin < "Our Accolades"
         h3 < "A Decorated FTC Team"
         p
-            "We are a rather decorated FTC team, given how new the team is, having won awards at the Qualifying and Regional events every year for our robot designs or our outreach programs into less fortunate communities."
+            "We are a rather decorated FTC team, given how new the team is, having won awards at nearly every Qualifying and Regional event every year for our robot designs or our outreach programs into less fortunate communities."
     img.content.right.mtmargin(src: "media/awards.jpg")
 
 div.container

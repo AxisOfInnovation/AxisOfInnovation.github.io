@@ -16409,3 +16409,291 @@
 [I]         Writing to file
 [I]     Copying necessary files
 [I] Export successful
+
+[I] Session Started: 2016/11/03 00:17:49.704
+[I] Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\master.yahr'
+[D]     Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\master.yahr for read
+[I] Set 'out-dir' to '../'
+[I] Setting 'embed-css' to 'true'
+[I] Set 'condensed' to 'true'
+[D] Processing defaults
+[D]     Processing node
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css for read
+[D]         Adding style to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css for read
+[D]         Adding alias to list; name: title
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page for read
+[D] Processing page( path: "index.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[D]         Adding alias to list; name: ghmap
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page for read
+[D] Processing page( path: "accolades.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page for read
+[D] Processing page( path: "competition.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page for read
+[D] Processing page( path: "history.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page for read
+[D] Processing page( path: "sponsors.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page for read
+[I] Starting exportation
+[I]       Base dir: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src
+[I]     Export dir: ../
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page'
+[D]     Relation is: index.page
+[I]     Exporting: index.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\index.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page'
+[D]     Relation is: accolades.page
+[I]     Exporting: accolades.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\accolades.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page'
+[D]     Relation is: competition.page
+[I]     Exporting: competition.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\competition.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page'
+[D]     Relation is: history.page
+[I]     Exporting: history.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\history.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page'
+[D]     Relation is: sponsors.page
+[I]     Exporting: sponsors.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\sponsors.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[I]     Copying necessary files
+[I] Export successful
+
+[I] Session Started: 2016/11/03 01:04:09.276
+[I] Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\master.yahr'
+[D]     Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\master.yahr for read
+[I] Set 'out-dir' to '../'
+[I] Setting 'embed-css' to 'true'
+[I] Set 'condensed' to 'true'
+[D] Processing defaults
+[D]     Processing node
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css for read
+[D]         Adding style to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css for read
+[D]         Adding alias to list; name: title
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page for read
+[D] Processing page( path: "index.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[D]         Adding alias to list; name: ghmap
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page for read
+[D] Processing page( path: "accolades.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page for read
+[D] Processing page( path: "competition.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page for read
+[D] Processing page( path: "history.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page for read
+[D] Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page for read
+[D] Processing page( path: "sponsors.page" )
+[D]     Processing defaults
+[D]         Adding frag to list; name: main
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\main.frag for read
+[D]         Adding frag to list; name: nav
+[D]             Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\frag\nav.frag for read
+[D]         Adding style to list; name: main
+[D]         Adding style to list; name: nav
+[D]         Adding alias to list; name: title
+[D]     Processing node
+[D]         Adding alias to list; name: title
+[I]     Parsing YAHR file 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page'
+[D]         Opening C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page for read
+[I] Starting exportation
+[I]       Base dir: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src
+[I]     Export dir: ../
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\index.page'
+[D]     Relation is: index.page
+[I]     Exporting: index.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\index.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\accolades.page'
+[D]     Relation is: accolades.page
+[I]     Exporting: accolades.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\accolades.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\competition.page'
+[D]     Relation is: competition.page
+[I]     Exporting: competition.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\competition.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\history.page'
+[D]     Relation is: history.page
+[I]     Exporting: history.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\history.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[D]     Finding relation between 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src' and 'C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\sponsors.page'
+[D]     Relation is: sponsors.page
+[I]     Exporting: sponsors.page
+[I]         Output file: C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\sponsors.html
+[I]         Generating content
+[I]             Inserting styles
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\nav.css
+[I]                 Embedded Style C:\Users\gaarj\Documents\GitHub\AxisOfInnovation.github.io\src\style\main.css
+[I]             Condensing content
+[I]         Writing to file
+[I]     Copying necessary files
+[I] Export successful

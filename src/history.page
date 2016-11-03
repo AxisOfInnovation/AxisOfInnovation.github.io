@@ -15,6 +15,32 @@ div.container
 
 div.container
     div.content.mtmargin
+        h2 < "2016 Season"
+        hr
+
+div.container
+    div.content.left.mtmargin
+        h3.mtmargin < "League Matches"
+        h4 < "Greenhill School"
+        p
+            "2016 marked First Tech Challenge's first implementation a league play system instead of a qualifier. This new system would involve teams going to many qualifying competitions--whose results would be compiled--instead of just one. Eager to try out the new system, we joined Emerald League. Our league matches started out fairly poor, but the frequent competitions gave us both incentive and inspiration for improvement. Many of our mechanisms in the past have been mostly untested when we got to our competitions. This year, we began similarly, but the abundance of competitions allowed us ample time to improve. Our performances increased in quality, until we were the #1 team at several of our final league matches."
+
+div.container
+    div.content.right.mtmargin
+        h3.mtmargin < "League Championship"
+        h4 < "Greenhill School"
+        p
+            "By the time the league championship rolled around, we were the #2 overall team. Our design had been redone and refined greatly throughout the process of league play. We did just as well as expected--if not better--at this final qualifying competition. We not only won the match, but we were the captain of our winning alliance. In addition to the game award, we also received the Rockwell-Collins Innovate Award for creating an Android app that allows for variables to be configured to a different value without having to wait for a recompilation the code. This is especially useful for autonomous as there are several values that must be dead-reckoned (move distance) or changed last minute (wait time before starting)."
+
+div.container
+    div.content.left.mtmargin
+        h3.mtmargin < "Regional"
+        h4 < "University of Texas at Arlington"
+        p
+            "Our success in league play led us to be over-ambitious for our robot at the regional competition. We completely redid the design of the robot into what we believed would be more effective and efficient in scoring points. Unfortunately, we simply did not have the time between the competitions to work out all of the details of the design. After working with it extensively nearly every night that we could, we realized the night before the competition that there simply too many design flaws that prevented the robot from operating as intended. We then had to quickly reconstruct our old robot, which we knew would at least work better than our new attempt. This reconstruction was hastly done, leaving much of the robot not sufficiently tightened or structurally sound. At the competition, this--to everyone's disappointment--led to our robot actually performing far worse than at our league championship. We did not win a single award, and, for the first time in the history of the team, did not move on to Super-Regional."
+
+div.container
+    div.content.mtmargin
         h2 < "2015 Season"
         hr
 

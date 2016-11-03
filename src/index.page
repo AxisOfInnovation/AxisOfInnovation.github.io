@@ -38,58 +38,10 @@ div.container.btmargin
 
 div.container
     div.content.left.schedule
-        h2 < "Regional"
-    div.content.right.scheduleinfo
-        p < "20 Februrary, 2016"
-        p < "8:00 A.M. - 5:00 P.M."
-        p
-            a(href: "")
-                "Maverick Activity Center"
-            "at UTA"
-        P < "500 W. Nedderman Dr., Arlington, TX"
-
-div.container
-    div.content.left.schedule
-        h2 < "League Championship"
-    div.content.right.scheduleinfo
-        p < "23 January, 2016"
-        p < "8:00 A.M. - 5:00 P.M."
-        p
-            a(href: "#[alias ghmap]")
-                "Cox Gymnasium"
-            "at Greenhill School"
-        p < "4141 Spring Valley Rd., Addison, TX"
-
-div.container
-    div.content.left.schedule
         h2 < "League Meet"
     div.content.right.scheduleinfo
-        p < "16 January, 2016"
-        p < "8:00 A.M. - 12:00 P.M."
-        p
-            a(href: "#[alias ghmap]")
-                "Fulton Upper School"
-            "at Greenhill School"
-        p < "4141 Spring Valley Rd., Addison, TX"
-
-div.container
-    div.content.left.schedule
-        h2 < "League Meet"
-    div.content.right.scheduleinfo
-        p < "9 January, 2016"
-        p < "8:00 A.M. - 12:00 P.M."
-        p
-            a(href: "#[alias ghmap]")
-                "Fulton Upper School"
-            "at Greenhill School"
-        p < "4141 Spring Valley Rd., Addison, TX"
-
-div.container
-    div.content.left.schedule
-        h2 < "League Meet"
-    div.content.right.scheduleinfo
-        p < "12 December, 2015"
-        p < "8:00 A.M. - 12:00 P.M."
+        p < "29 October, 2016"
+        p < "8:30 A.M. - 1:00 P.M."
         p
             a(href: "#[alias ghmap]")
                 "Fulton Upper School"
