@@ -14,8 +14,9 @@ div.containter.gallery(style: "background-color: white;")
         span < img(src: "media/sponsors/boka%20powell.png")
         span < img(src: "media/sponsors/frost.png")
         span < img(src: "media/sponsors/same.png")
-        span < img(src: "media/sponsors/reitz%20/realty.png")
-        span < img(src: "media/sponsors/twc.png")        
+        span < img(src: "media/sponsors/reitz%20realty.png")
+        span < img(src: "media/sponsors/twc.png")
+        span < img(src: "media/sponsors/American%20Legion.png")
 
 div.container
     div.content.left.mtmargin
@@ -23,7 +24,7 @@ div.container
         p < "Paid us $2500 to repaint their parking lot."
     div.content.right.mtmargin
         h3 < "Reitz Realty Group"
-        p < "Donated $150 and covered hafl of the costs of T-shirts for the 2014 season"
+        p < "Donated $150 and covered half of the costs of T-shirts for the 2014 season"
 
 div.container
     div.content.left.mtmargin
@@ -53,3 +54,6 @@ div.container
     div.content.left.mtmargin
         h3 < "Ink 820"
         p < "Printed out team shirts for free for the 2013 season."
+        div.content.right.mtmargin
+        h3 < "American Legion Post 379"
+        p < ""
