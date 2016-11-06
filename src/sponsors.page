@@ -54,6 +54,6 @@ div.container
     div.content.left.mtmargin
         h3 < "Ink 820"
         p < "Printed out team shirts for free for the 2013 season."
-        div.content.right.mtmargin
+    div.content.right.mtmargin
         h3 < "American Legion Post 379"
-        p < ""
+        p < "Donated $250 to our team."
